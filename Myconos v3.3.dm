@@ -5,16 +5,14 @@
 
 
 Uses the following IDS
-
+-- FIXME
 Nation: 93
 Monsters: 3570-3588, 3761-3809, 3829-3833, 3835-3893
 Weapons: 613-619
 Armor: 
 Sites: 895-896
 
-
-
-#selectnation 93
+#selectnation 120
 #name "Myconos"
 #era 2
 #epithet "Last of the Fungi"
@@ -32,7 +30,7 @@ Sites: 895-896
 #uwfort 12
 #deepfort 13
 #uwcom1 3799
-#descr "After the Cataclysm the Myconids found a strange shart. It's a potent source of magic kept hidden in the deepest cave. Only the wisest mage was allowed in, to gather the magic the shart secreted. To keep it secret he worked of the Mycelial network spanning Myconos. Years went by, until the mage past away. Troubles started when his body was absorbed by the Mycelial grid at the burial ceremony. The parasites from the shart that had incubated in his body for so long were released. Within weeks the Myconids started to behave strangely and dying in droves. Large groups of fungi disconnected themselves from the network. Faced with the collapse of the Kingdom the counsil of Myconid mages sent for help to the neighboring Pythians. Long time allies, the Pythians sent a regiment of legionaires and 2 bright researchers. Voland an eager young upstart, and Duke a respected arch theurg well know for it's bestsellers: 'Why beef is better than fish. Vol I & II'"
+#descr "After the Cataclysm the Myconids found a strange shard. It's a potent source of magic kept hidden in the deepest cave. Only the wisest mage was allowed in, to gather the magic the shard secreted. To keep it secret he worked of the Mycelial network spanning Myconos. Years went by, until the mage past away. Troubles started when his body was absorbed by the Mycelial grid at the burial ceremony. The parasites from the shard that had incubated in his body for so long were released. Within weeks the Myconids started to behave strangely and dying in droves. Large groups of fungi disconnected themselves from the network. Faced with the collapse of the Kingdom the counsil of Myconid mages sent for help to the neighboring Pythians. Long time allies, the Pythians sent a regiment of legionaires and 2 bright researchers. Voland an eager young upstart, and Duke a respected arch theurg well know for it's bestsellers: 'Why beef is better than fish. Vol I & II'"
 #summary "Race: Fungi & Parasitic creatures. 
 Military: Infected animals, Hawks, Boars, Heavy Myconid warriors. 
 Magic: Air, Nature, Earth, Water. 
@@ -189,7 +187,7 @@ Priest: Strong"
 #spr1 "./Myconos/Velite_Sick_21.tga"
 #spr2 "./Myconos/Velite_Sick_22.tga"
 #firstshape 3764
-#descr "These soldiers are infected with a parasite. They seem to have a diminished consiousness and obay every order given. When they are not on duty they seem to just stand there and only their eyes move. The eyes freak me out. They seem angry and follow me wherever I go. --- Voland ---"
+#descr "These soldiers are infected with a parasite. They seem to have a diminished consiousness and obay every order given. When they are not on duty they seem to just stand there and only their eyes move. The eyes freak me out. They seem angry and follow me wherever I go. - Voland"
 #end
 
 #newmonster 3764
@@ -199,7 +197,7 @@ Priest: Strong"
 #spr2 "./Myconos/Velite_Sick_32.tga"
 #secondshape 3765
 #berserk 1
-#descr "I think I've created the perfect soldier. Hundred percent loyal to their masters and at the slightest provocation they fall into a blinding rage even when it means certain death. I removed the parasite from one of the soldier's brain today. He immidatly attacked me while shouting: 'What did you do to me!' I had to put him down. --- Voland ---"
+#descr "I think I've created the perfect soldier. Hundred percent loyal to their masters and at the slightest provocation they fall into a blinding rage even when it means certain death. I removed the parasite from one of the soldier's brain today. He immidatly attacked me while shouting: 'What did you do to me!' I had to put him down. - Voland"
 #end
 
 #newmonster 3766
@@ -210,7 +208,7 @@ Priest: Strong"
 #firstshape 3767
 #gcost 8
 #rcost 1
-#descr "I hate birds. They shriek, squeel, chirp, twitter, whistle and poo wherever I stand. --- Duke ---"
+#descr "I hate birds. They shriek, squeel, chirp, twitter, whistle and poo wherever I stand. - Duke"
 #end
 
 #newmonster 3767
@@ -219,7 +217,7 @@ Priest: Strong"
 #firstshape 3768
 #spr1 "./Myconos/BlackHawk_11.tga"
 #spr2 "./Myconos/BlackHawk_12.tga"
-#descr "I hate birds. They shriek, squeel, chirp, twitter, whistle and poo wherever I stand. --- Duke ---"
+#descr "I hate birds. They shriek, squeel, chirp, twitter, whistle and poo wherever I stand. - Duke"
 #gcost 8
 #end
 
@@ -229,7 +227,7 @@ Priest: Strong"
 #spr1 "./Myconos/BlackHawk_21.tga"
 #spr2 "./Myconos/BlackHawk_22.tga"
 #firstshape 3769
-#descr "After I infected these hawks with a parasite they soon start growing strands of mucus. The birds do retain their ability of flight though. I guess poo-ing on people wasn't enough. Now they can bombard them with mucus too. Ugh. --- Duke ---"
+#descr "After I infected these hawks with a parasite they soon start growing strands of mucus. The birds do retain their ability of flight though. I guess poo-ing on people wasn't enough. Now they can bombard them with mucus too. Ugh. - Duke"
 #gcost 8
 #end
 
@@ -238,7 +236,7 @@ Priest: Strong"
 #name "Infected Black Hawk"
 #spr1 "./Myconos/BlackHawk_31.tga"
 #spr2 "./Myconos/BlackHawk_32.tga"
-#descr "These hawks are fully infected, the parasite has had enough time to incubate. It seems the parasite has matured and is ready to claim a new vessal for the second stage of it's life cycle. These hawk will fight anything, especially if it gets them killed. --- Duke ---"
+#descr "These hawks are fully infected, the parasite has had enough time to incubate. It seems the parasite has matured and is ready to claim a new vessal for the second stage of it's life cycle. These hawk will fight anything, especially if it gets them killed. - Duke"
 #berserk 1
 #gcost 5
 #secondshape 3870
@@ -252,7 +250,7 @@ Priest: Strong"
 #firstshape 3771
 #gcost 10
 #rcost 1
-#descr "I love Boars. I love them roasted, cooked, baked, sliced, chopped, minced and rolled in little meadballs. I love them with salt and pepper, garlic, red wine sauce, mushr.... oh, err... mashed potatoes, and those little steamed corn cobs. I love them with ...  --- Duke ---"
+#descr "I love Boars. I love them roasted, cooked, baked, sliced, chopped, minced and rolled in little meadballs. I love them with salt and pepper, garlic, red wine sauce, mushr.... oh, err... mashed potatoes, and those little steamed corn cobs. I love them with ...  - Duke"
 #end
 
 #newmonster 3771
@@ -261,7 +259,7 @@ Priest: Strong"
 #firstshape 3772
 #spr1 "./Myconos/Boar_11.tga"
 #spr2 "./Myconos/Boar_12.tga"
-#descr "I love Boars. I love them roasted, cooked, baked, sliced, chopped, minced and rolled in little meadballs. I love them with salt and pepper, garlic, red wine sauce, mushr.... oh, err... mashed potatoes, and those little steamed corn cobs. I love them with ...  --- Duke ---"
+#descr "I love Boars. I love them roasted, cooked, baked, sliced, chopped, minced and rolled in little meadballs. I love them with salt and pepper, garlic, red wine sauce, mushr.... oh, err... mashed potatoes, and those little steamed corn cobs. I love them with ...  - Duke"
 #gcost 10
 #end
 
@@ -271,7 +269,7 @@ Priest: Strong"
 #firstshape 3773
 #spr1 "./Myconos/Boar_21.tga"
 #spr2 "./Myconos/Boar_22.tga"
-#descr "I have infected theses boars with a parasite. After no more than a few weeks mucus and slime strands run all over the animals body. They don't seem to mind and are just as active as normal. But they don't look as tasty as normal anymore. --- Duke ---"
+#descr "I have infected theses boars with a parasite. After no more than a few weeks mucus and slime strands run all over the animals body. They don't seem to mind and are just as active as normal. But they don't look as tasty as normal anymore. - Duke"
 #gcost 10
 #end
 
@@ -283,7 +281,7 @@ Priest: Strong"
 #spr2 "./Myconos/Boar_32.tga"
 #amphibian
 #berserk 2
-#descr "These mucus strands are actually an alive part of the boar. In fact they seem to be acting as outher gills and the boars have gained the ability to breath underwater.  Their meat even tastes like fish. Not good at all .... --- Duke ---"
+#descr "These mucus strands are actually an alive part of the boar. In fact they seem to be acting as outher gills and the boars have gained the ability to breath underwater.  Their meat even tastes like fish. Not good at all .... - Duke"
 #gcost 5
 #end
 
@@ -309,7 +307,7 @@ Priest: Strong"
 #weapon 63
 #poisonres 50
 #noitem
-#descr "A viscious little parasite. When it's fully grown and the host dies it will search a fresh body or corpse and transforms it into a large hard pupa. Inside, the parasite will transform to the second stage of it's life cycle. The form it takes is mostly determent by the environment the pupa resides. --- Duke ---"
+#descr "A viscious little parasite. When it's fully grown and the host dies it will search a fresh body or corpse and transforms it into a large hard pupa. Inside, the parasite will transform to the second stage of it's life cycle. The form it takes is mostly determent by the environment the pupa resides. - Duke"
 #noleader
 #end
 
@@ -317,7 +315,7 @@ Priest: Strong"
 #name "Parasite"
 #spr1 "./Myconos/TinyParasite_11.tga"
 #spr2 "./Myconos/TinyParasite_12.tga"
-#descr "A viscious little parasite. When it's fully grown and the host dies it will search a fresh body or corpse and transforms it into a large hard pupa. Inside, the parasite will transform to the second stage of it's life cycle. The form it takes is mostly determent by the environment the pupa resides. --- Duke ---"
+#descr "A viscious little parasite. When it's fully grown and the host dies it will search a fresh body or corpse and transforms it into a large hard pupa. Inside, the parasite will transform to the second stage of it's life cycle. The form it takes is mostly determent by the environment the pupa resides. - Duke"
 #mapmove 1
 #prot 0
 #enc 1
@@ -360,7 +358,7 @@ Priest: Strong"
 #prec 0
 #mor 99
 #poisonres 50
-#descr "The pupa has a hard other shell of chitin but is easy to breach for a determent person as it has no defensive capabilities. Inside, the larve is transforming into a new form. The duration and the form it will take is dependent not on the genotype but on enviromental factors.--- Duke ---"
+#descr "The pupa has a hard other shell of chitin but is easy to breach for a determent person as it has no defensive capabilities. Inside, the larve is transforming into a new form. The duration and the form it will take is dependent not on the genotype but on enviromental factors.- Duke"
 #end
 
 #newmonster 3775
@@ -372,7 +370,7 @@ Priest: Strong"
 #amphibian
 #immobile
 #forestshape 3776
-#descr "The pupa has a hard other shell of chitin but is easy to breach for a determent person as it has no defensive capabilities. Inside, the larve is transforming into a new form. The duration and the form it will take is dependent not on the genotype but on enviromental factors.--- Duke ---"
+#descr "The pupa has a hard other shell of chitin but is easy to breach for a determent person as it has no defensive capabilities. Inside, the larve is transforming into a new form. The duration and the form it will take is dependent not on the genotype but on enviromental factors.- Duke"
 #firstshape 3857
 #end
 
@@ -384,7 +382,7 @@ Priest: Strong"
 #amphibian
 #immobile
 #firstshape 3793
-#descr "The pupa has a hard outher shell of chitin but is easy to breach for a determent person as it has no defensive capabilities. Inside, the larve is transforming into a new form. The duration and the form it will take is dependent not on the genotype but on enviromental factors.--- Duke ---"
+#descr "The pupa has a hard outher shell of chitin but is easy to breach for a determent person as it has no defensive capabilities. Inside, the larve is transforming into a new form. The duration and the form it will take is dependent not on the genotype but on enviromental factors.- Duke"
 #end
 
 #newmonster 3777
@@ -407,7 +405,7 @@ Priest: Strong"
 #mor 99
 #poisonres 50
 #immobile
-#descr "Yuk, I hate fish. ---Duke---"
+#descr "Yuk, I hate fish. - Duke"
 #end
 
 #newmonster 3778
@@ -416,7 +414,7 @@ Priest: Strong"
 #spr1 "./Myconos/FishEggSmall.tga"
 #spr2 "./Myconos/FishEggSmall.tga"
 #firstshape 3779
-#descr "Yuk, I hate fish. ---Duke---"
+#descr "Yuk, I hate fish. - Duke"
 #end
 
 #newmonster 3779
@@ -445,7 +443,7 @@ Priest: Strong"
 #darkvision 50
 #startage 1
 #maxage 50
-#descr "The swamp moster is a large, highly poisonous brute. First reports have noted that the creature needs air but is capable of being submerged for more than a day. We tried to bait one but they don't seem to like Pythian Pie.--- Duke ---"
+#descr "The swamp moster is a large, highly poisonous brute. First reports have noted that the creature needs air but is capable of being submerged for more than a day. We tried to bait one but they don't seem to like Pythian Pie.- Duke"
 #swampsurvival
 #end
 
@@ -472,7 +470,7 @@ Priest: Strong"
 #weapon 63
 #poisonres 50
 #blind
-#descr "When a second stage host dies it's reported that a large, almost man high, leech like creature emerges from the corpse. The Myconids tell stories that after large battles these creatures sucked several bodies dry to transform into large immobile cocoons. Unfortunatly they didn't bring a specimen home as they burned them all. At this stage one can only wonder what vile creatures will spawn from this.--- Duke ---"
+#descr "When a second stage host dies it's reported that a large, almost man high, leech like creature emerges from the corpse. The Myconids tell stories that after large battles these creatures sucked several bodies dry to transform into large immobile cocoons. Unfortunatly they didn't bring a specimen home as they burned them all. At this stage one can only wonder what vile creatures will spawn from this.- Duke"
 #end
 
 #newmonster 3783
@@ -495,7 +493,7 @@ Priest: Strong"
 #att 0
 #mor 99
 #poisonres 50
-#descr "Large they are even more gross. ---Duke---"
+#descr "Large they are even more gross. - Duke"
 #end
 
 #newmonster 3784
@@ -504,7 +502,7 @@ Priest: Strong"
 #spr1 "./Myconos/FishEggLarge.tga"
 #spr2 "./Myconos/FishEggLarge.tga"
 #firstshape 3785
-#descr "Large they are even more gross. ---Duke---"
+#descr "Large they are even more gross. - Duke"
 #end
 
 #newmonster 3785
@@ -513,7 +511,7 @@ Priest: Strong"
 #spr1 "./Myconos/FishEggLarge.tga"
 #spr2 "./Myconos/FishEggLarge.tga"
 #firstshape 3786
-#descr "Large they are even more gross. ---Duke---"
+#descr "Large they are even more gross. - Duke"
 #end
 
 #newmonster 3786
@@ -544,8 +542,8 @@ Priest: Strong"
 #poisonres 50
 #darkvision 50
 #noitem
-#descr "Not much is known about these creatures. They have been reported along the coast and in river inlands. One Myconid survivor claims he saw it slay a bear. The bear dissolved instandly in a puddle of goo and its remain were being gobbled up by the serpent. The last thing he recalled was being defrosted by a nurse with whom he would gladly exchange spores with.    --- Duke ---"
-#onebattlespell 635
+#descr "Not much is known about these creatures. They have been reported along the coast and in river inlands. One Myconid survivor claims he saw it slay a bear. The bear dissolved instandly in a puddle of goo and its remain were being gobbled up by the serpent. The last thing he recalled was being defrosted by a nurse with whom he would gladly exchange spores with.    - Duke"
+#commaster
 #swampsurvival
 #end
 
@@ -568,7 +566,7 @@ Priest: Strong"
 #mor 99
 #poisonres 50
 #blind
-#descr "The pupa has a hard other shell of chitin but is easy to breach for a determent person as it has no defensive capabilities. Inside, the larve is transforming into a new form. The duration and the form it will take is dependent not on the genotype but on enviromental factors.--- Duke ---"
+#descr "The pupa has a hard other shell of chitin but is easy to breach for a determent person as it has no defensive capabilities. Inside, the larve is transforming into a new form. The duration and the form it will take is dependent not on the genotype but on enviromental factors.- Duke"
 #end
 
 #newmonster 3780
@@ -596,7 +594,7 @@ Priest: Strong"
 #maxage 50
 #regeneration 10
 #noitem
-#descr "These creatures are extremely sturdy. Tall as two men and strong as an elephant. The potential for Pythian warfare is enormous. I did some test with weakened parasites but had to abruptly end my experiments as that fool Duke wandered about. ---Voland---"
+#descr "These creatures are extremely sturdy. Tall as two men and strong as an elephant. The potential for Pythian warfare is enormous. I did some test with weakened parasites but had to abruptly end my experiments as that fool Duke wandered about. - Voland"
 #weapon 20
 #weapon 273
 #end
@@ -607,7 +605,7 @@ Priest: Strong"
 #spr1 "./Myconos/ParasiteLarge_11.tga"
 #spr2 "./Myconos/ParasiteLarge_12.tga"
 #firstshape 3794
-#descr "When a second stage host dies it's reported that a large, almost man high, leech like creature emerges from the corpse. The Myconids tell stories that after large battles these creatures sucked several bodies dry to not much later transform into large immobile forms. Unfortunatly they didn't bring a specimen home as they burned them all. At this stage one can only wonder what vile creatures will spawn from this.--- Duke ---"
+#descr "When a second stage host dies it's reported that a large, almost man high, leech like creature emerges from the corpse. The Myconids tell stories that after large battles these creatures sucked several bodies dry to not much later transform into large immobile forms. Unfortunatly they didn't bring a specimen home as they burned them all. At this stage one can only wonder what vile creatures will spawn from this.- Duke"
 #end
 
 #newmonster 3794
@@ -629,7 +627,7 @@ Priest: Strong"
 #mor 99
 #blind
 #regeneration 10
-#descr "These pupa's are pulsing with life. When you look at them nothing seems to change but walk away for a minute and you'll swear it's grown. Unfortunatly I left it for a moment only to find a Myconid commander hacking into it. I dared not approach. Nevertheless, it took him almost ten minutes to kill the thing. --- Duke ---"
+#descr "These pupa's are pulsing with life. When you look at them nothing seems to change but walk away for a minute and you'll swear it's grown. Unfortunatly I left it for a moment only to find a Myconid commander hacking into it. I dared not approach. Nevertheless, it took him almost ten minutes to kill the thing. - Duke"
 #end
 
 #newmonster 3795
@@ -638,7 +636,7 @@ Priest: Strong"
 #spr1 "./Myconos/PupaForest.tga"
 #spr2 "./Myconos/PupaForest.tga"
 #firstshape 3796
-#descr "These pupa's are pulsing with life. When you look at them nothing seems to change but walk away for a minute and you'll swear it's grown. Unfortunatly I left it for a moment only to find a Myconid commander hacking into it. I dared not approach. Nevertheless, it took him almost ten minutes to kill the thing. --- Duke ---"
+#descr "These pupa's are pulsing with life. When you look at them nothing seems to change but walk away for a minute and you'll swear it's grown. Unfortunatly I left it for a moment only to find a Myconid commander hacking into it. I dared not approach. Nevertheless, it took him almost ten minutes to kill the thing. - Duke"
 #end
 
 #newmonster 3796
@@ -647,7 +645,7 @@ Priest: Strong"
 #spr1 "./Myconos/PupaForest.tga"
 #spr2 "./Myconos/PupaForest.tga"
 #firstshape 3797
-#descr "These pupa's are pulsing with life. When you look at them nothing seems to change but walk away for a minute and you'll swear it's grown. Unfortunatly I left it for a moment only to find a Myconid commander hacking into it. I dared not approach. Nevertheless, it took him almost ten minutes to kill the thing. --- Duke ---"
+#descr "These pupa's are pulsing with life. When you look at them nothing seems to change but walk away for a minute and you'll swear it's grown. Unfortunatly I left it for a moment only to find a Myconid commander hacking into it. I dared not approach. Nevertheless, it took him almost ten minutes to kill the thing. - Duke"
 #end
 
 #newmonster 3797
@@ -681,8 +679,8 @@ Priest: Strong"
 #weapon 120
 #weapon 338
 #weapon 354
-#descr "A creature of nightmares. They come at night and bring nought but death. --- Duke ---"
-#onebattlespell 635
+#descr "A creature of nightmares. They come at night and bring nought but death. - Duke"
+#commaster
 #magicskill 6 2
 #end
 
@@ -714,10 +712,10 @@ Priest: Strong"
 #weapon 1
 #poisonres 50
 #poisonarmor
-#descr "These Myconid commanders are somewhat intelligent and also function as some kind of priest. On more than one occasion I've seen Myconid soldiers form a fairy ring around them and make a low almost indistinguishable sound with their hats. They grow above ground near water and are almost all amphibious. She will lend her energy to higher order mages when they are present. --- Duke ---"
+#descr "These Myconid commanders are somewhat intelligent and also function as some kind of priest. On more than one occasion I've seen Myconid soldiers form a fairy ring around them and make a low almost indistinguishable sound with their hats. They grow above ground near water and are almost all amphibious. She will lend her energy to higher order mages when they are present. - Duke"
 #female
 #magicskill 6 1
-#onebattlespell 815
+#comslave
 #forestsurvival
 #goodleader
 #gcost 110
@@ -749,7 +747,7 @@ Priest: Strong"
 #maxage 2000
 #poisonarmor
 #secondshape 3765
-#descr "Super heavy elite warriors. These Myconids grow underground in rocky caves. They absorb the minerals from the rock and subsequently gain many of it's properties. In the hundreds of years these creatures can live they only seem to move when called for by the collective. --- Duke ---"
+#descr "Super heavy elite warriors. These Myconids grow underground in rocky caves. They absorb the minerals from the rock and subsequently gain many of it's properties. In the hundreds of years these creatures can live they only seem to move when called for by the collective. - Duke"
 #mountainsurvival
 #gcost 40
 #def 8
@@ -779,7 +777,7 @@ Priest: Strong"
 #custommagic 9984 100
 #custommagic 9984 100
 #rcost 1
-#descr "These are young mushrooms and have not yet differentiate themselves. Although born under a sign of other magics they will only aquire these levels at a later age. --- Duke ---"
+#descr "These are young mushrooms and have not yet differentiate themselves. Although born under a sign of other magics they will only aquire these levels at a later age. - Duke"
 #blind
 #startage 1
 #maxage 50
@@ -801,7 +799,7 @@ Priest: Strong"
 #firstshape 3802
 #forestshape 3803
 #watershape 3805
-#descr "These are young mushrooms and have not yet differentiate themselves. Although born under a sign of other magics they will only aquire these levels at a later age. --- Duke ---"
+#descr "These are young mushrooms and have not yet differentiate themselves. Although born under a sign of other magics they will only aquire these levels at a later age. - Duke"
 #end
 
 #newmonster 3803
@@ -812,7 +810,7 @@ Priest: Strong"
 #spr2 "./Myconos/MushroomMage_12.tga"
 #magicboost 4 1
 #noitem
-#descr "These are young mushrooms and have not yet differentiate themselves. Although born under a sign of other magics they will only aquire these levels at a later age. --- Duke ---"
+#descr "These are young mushrooms and have not yet differentiate themselves. Although born under a sign of other magics they will only aquire these levels at a later age. - Duke"
 #end
 
 #newmonster 3805
@@ -823,7 +821,7 @@ Priest: Strong"
 #firstshape 3806
 #magicboost 4 1
 #noitem
-#descr "These are young mushrooms and have not yet differentiate themselves. Although born under a sign of other magics they will only aquire these levels at a later age. --- Duke ---"
+#descr "These are young mushrooms and have not yet differentiate themselves. Although born under a sign of other magics they will only aquire these levels at a later age. - Duke"
 #end
 
 #newmonster 3806
@@ -850,7 +848,7 @@ Priest: Strong"
 #magicboost 1 -2
 #magicboost 6 -2
 #noitem
-#descr "These mushrooms are the source of water magic for the Myconids. In contrast to the younger mushrooms they have a means of transportation. They dissolve in the Mycelial cords and grow at the disired destination. They are in constand connection with the collective. --- Duke ---"
+#descr "These mushrooms are the source of water magic for the Myconids. In contrast to the younger mushrooms they have a means of transportation. They dissolve in the Mycelial cords and grow at the disired destination. They are in constant connection with the collective. - Duke"
 #poisonres 50
 #holy
 #weapon 300
@@ -886,7 +884,7 @@ Priest: Strong"
 #magicboost 1 -2
 #magicboost 6 -2
 #noitem
-#descr "These mushrooms are the source of water magic for the Myconids. In contrast to the younger mushrooms they have a means of transportation. They dissolve in the Mycelial cords and grow at the disired destination. They are in constand connection with the collective. --- Duke ---"
+#descr "These mushrooms are the source of water magic for the Myconids. In contrast to the younger mushrooms they have a means of transportation. They dissolve in the Mycelial cords and grow at the disired destination. They are in constant connection with the collective. - Duke"
 #poisonres 50
 #holy
 #weapon 300
@@ -914,7 +912,7 @@ Priest: Strong"
 #path 0 6
 #pathlevel 0 1
 #researchlevel 0
-#restricted 93
+#restricted 120
 #school 5
 #end
 
@@ -943,7 +941,7 @@ Priest: Strong"
 #poisonarmor
 #noitem
 #weapon 142
-#descr "Too small for the parasite inside, these spores are riddled with decay and disease. Once the spore's immune system defeats the parasite it'll land and grows a mushroom. It's mycelial strands connects with the larger network and information is exchanged. This find will promote me to theurg for sure. --- Voland ---"
+#descr "Too small for the parasite inside, these spores are riddled with decay and disease. Once the spore's immune system defeats the parasite it'll land and grows a mushroom. It's mycelial strands connects with the larger network and information is exchanged. This find will promote me to theurg for sure. - Voland"
 #end
 
 #selectspell 814
@@ -995,7 +993,7 @@ Priest: Strong"
 --nametype 127
 #gcost 0
 #size 4
-#descr "I've been send here to the outher rimms of the Pythian empire. A place of Fungus creatures,  called Myconos. Aparently we have been long time allies and it is said we've learned how to communion from them. Their nation is in disarray and the population is infected with parasites. Duke is here for research. I'm here to secure any advantages in new warfare technology. Nothing is shunned. --- Voland ---"
+#descr "I've been send here to the outher rimms of the Pythian empire. A place of Fungus creatures,  called Myconos. Aparently we have been long time allies and it is said we've learned how to communion from them. Their nation is in disarray and the population is infected with parasites. Duke is here for research. I'm here to secure any advantages in new warfare technology. Nothing is shunned. - Voland"
 #magicskill 6 2
 #magicboost 6 -2
 #end
@@ -1007,7 +1005,7 @@ Priest: Strong"
 #spr2 "./Myconos/VolandDuke_12.tga"
 #firstshape 3570
 #magicboost 2 -1
-#descr "While Duke has infected birds and boars I have extracted some parasite eggs from a dead myconid corpse and mixed them with the legionaires dinner. The effects are quite stunning. Already strands of mucus are forming out of the legionaires skin lesions. Their movement seems controlled by the parasite but they do follow any command given to them. --- Voland --- "
+#descr "While Duke has infected birds and boars I have extracted some parasite eggs from a dead myconid corpse and mixed them with the legionaires dinner. The effects are quite stunning. Already strands of mucus are forming out of the legionaires skin lesions. Their movement seems controlled by the parasite but they do follow any command given to them. - Voland "
 #magicboost 6 -2
 #end
 
@@ -1019,7 +1017,7 @@ Priest: Strong"
 #firstshape 3571
 #magicboost 2 -1
 #magicboost 4 -1
-#descr "It seems the incubation time in the first batch of soldiers is complete. They go beserk at the slightest provocation and in battle actually want to be slain. This is not so surprising as the parasite inside is ready for the second stage of it's life cycle. Meanwhile my surprise was great that Duke actually made a contribution. The boars he has been infecting gained a useful ability in being able to breath underwater. --- Voland ---"
+#descr "It seems the incubation time in the first batch of soldiers is complete. They go beserk at the slightest provocation and in battle actually want to be slain. This is not so surprising as the parasite inside is ready for the second stage of it's life cycle. Meanwhile my surprise was great that Duke actually made a contribution. The boars he has been infecting gained a useful ability in being able to breath underwater. - Voland"
 #magicboost 6 -2
 #end
 
@@ -1032,7 +1030,7 @@ Priest: Strong"
 #magicboost 2 -1
 #magicboost 4 -1
 #magicboost 1 -1
-#descr "Disturbing things are happening around here. This is the third time a Pythian commander is found dazed in the forest with no trace of it's regiment. The only explanation they could give was they thought they had duty, took their arms and headed for the forest. Three times we searched the forest in the morning without finding any trace of them or their weapons. --- Voland ---"
+#descr "Disturbing things are happening around here. This is the third time a Pythian commander is found dazed in the forest with no trace of it's regiment. The only explanation they could give was they thought they had duty, took their arms and headed for the forest. Three times we searched the forest in the morning without finding any trace of them or their weapons. - Voland"
 #magicboost 6 -2
 #end
 
@@ -1045,7 +1043,7 @@ Priest: Strong"
 #magicboost 2 -2
 #magicboost 4 -1
 #magicboost 1 -1
-#descr "Duke is looking even filthier than normal. I can't tell if he has been infected, by his own stupidity, or that he's just in need of a hair cut. It's even growing out of his ears. I'll write to the capital that they should send a Naiad healer --- Voland ---"
+#descr "Duke is looking even filthier than normal. I can't tell if he has been infected, by his own stupidity, or that he's just in need of a hair cut. It's even growing out of his ears. I'll write to the capital that they should send a Naiad healer - Voland"
 #magicboost 6 -2
 #end
 
@@ -1058,7 +1056,7 @@ Priest: Strong"
 #magicboost 2 -2
 #magicboost 4 -2
 #magicboost 1 -1
-#descr "Duke is really getting on my nerves. I even hear him in my dreams.  Always talking about the marvels of the Mycelial network and the ability of the Myconids to use it to exchange information and to communion. I think he's getting delusional too because he's telling me he can look beyond the walls of this city and even communicate with other mushrooms far and wide. I wish the Naiad was here already. --- Voland ---"
+#descr "Duke is really getting on my nerves. I even hear him in my dreams.  Always talking about the marvels of the Mycelial network and the ability of the Myconids to use it to exchange information and to communion. I think he's getting delusional too because he's telling me he can look beyond the walls of this city and even communicate with other mushrooms far and wide. I wish the Naiad was here already. - Voland"
 #magicboost 6 -2
 #end
 
@@ -1093,7 +1091,7 @@ Priest: Strong"
 #spr1 "./Myconos/VolandDuke_41.tga"
 #spr2 "./Myconos/VolandDuke_41.tga"
 #mapmove 1
-#onebattlespell 635
+#commaster
 #magicboost 4 -3
 #maxage 2000
 #prot 10
@@ -1116,7 +1114,7 @@ Priest: Strong"
 #awe 3
 #gemprod 1 1
 #noitem
-#descr "A mythical creature? A fairy tale and bedtime story for Pythian children? Eat your peas or you'll transform into a mushroom like Voland & Duke, mothers tell their children. I don't know .... In every story there is an element of truth. --- Celestus, Arch Theurg ---"
+#descr "A mythical creature? A fairy tale and bedtime story for Pythian children? Eat your peas or you'll transform into a mushroom like Voland & Duke, mothers tell their children. I don't know .... In every story there is an element of truth. - Celestus, Arch Theurg"
 #end
 
 --selectnametype 127
@@ -1163,8 +1161,8 @@ Priest: Strong"
 #magicskill 6 1
 #custommagic 9984 100
 #magicskill 8 3
-#onebattlespell 635
-#descr "The oldest and wisest of all Myconid. When Pythium split from the Ermorian empire these fungi were already alive. In fact it is believed they taught the first theurgs how to communion. When these mighty wizards enter the battlefield they auto commune with all other mushroom mages present. --- Duke ---"
+#commaster
+#descr "The oldest and wisest of all Myconid. When Pythium split from the Ermorian empire these fungi were already alive. In fact it is believed they taught the first theurgs how to communion. When these mighty wizards enter the battlefield they auto commune with all other mushroom mages present. - Duke"
 #older 500
 #poorleader
 #researchbonus 5
@@ -1207,9 +1205,11 @@ Priest: Strong"
 #itemslots 15366
 #magicskill 8 1
 #secondshape 3765
-#descr "These fungi grow in the woods surrounding the Myconid cities. When fully grown these mushrooms vie with the tallest trees for sunlight. Actually, the trees don't stand a chance as they are pushed down like they were match sticks. Truly awe inspiring. --- Duke --- "
+#descr "These fungi grow in the woods surrounding the Myconid cities. When fully grown these mushrooms vie with the tallest trees for sunlight. Actually, the trees don't stand a chance as they are pushed down like they were match sticks. Truly awe inspiring. - Duke "
 #custommagic 9984 100
-#onebattlespell 635
+
+-- FIXME: should be slave or master?
+#comslave
 #weapon 615
 #goodleader
 #end
@@ -1220,8 +1220,9 @@ Priest: Strong"
 #spr1 "./Myconos/MyconidGiant_11.tga"
 #spr2 "./Myconos/MyconidGiant_12.tga"
 #mr 16
-#descr "Some City Guards show aptitude for magic and are promoted to commanders. Their commanding skills are not what sets them apart but the ability to connect to the Mycelial grid. Their true power comes from their communion mastery. --- Duke ---"
+#descr "Some City Guards show aptitude for magic and are promoted to commanders. Their commanding skills are not what sets them apart but the ability to connect to the Mycelial grid. Their true power comes from their communion mastery. - Duke"
 #gcost 200
+#commaster
 #end
 
 #newmonster 3581
@@ -1261,8 +1262,8 @@ Priest: Strong"
 #poisoncloud 6
 #weapon 614
 #weapon 614
-#onebattlespell 635
 #poorleader
+#commaster
 #poormagicleader
 #okundeadleader
 #end
@@ -1277,7 +1278,7 @@ Priest: Strong"
 #fatiguecost 12000
 #damage 3581
 #effect 10021
-#restricted 93
+#restricted 120
 #descr "An unholy rite. Blood from 120 virgins is used to appease a mold demon. The blood is quickly consumed. Then the caster is able to entice the demon with the promise of more."
 #end
 
@@ -1308,7 +1309,7 @@ Priest: Strong"
 #noitem
 #weapon 613
 #makemonster1 3584
-#descr "These highly poisoneous fungi are actually quite tasteful. A lot of animals think so too. After they have taken a bite out of the mushroom they quickly die and their bloodvessels dissolve. Blood seeps into the ground and is nutrition for the fungus. If one is present in a province eventually people daze and start to wander about. Soldiers can't follow orders or keep ranks. --- Duke ---"
+#descr "These highly poisoneous fungi are actually quite tasteful. A lot of animals think so too. After they have taken a bite out of the mushroom they quickly die and their bloodvessels dissolve. Blood seeps into the ground and is nutrition for the fungus. If one is present in a province eventually people daze and start to wander about. Soldiers can't follow orders or keep ranks. - Duke"
 #startage 1400
 #maxage 5000
 #end
@@ -1348,7 +1349,7 @@ Priest: Strong"
 #poisonarmor
 #noitem
 #weapon 613
-#descr "Starfish Fungi are a part of the maturnity rituals of the Argartians. Small pieces of these fungi are consumed by the adolescents. Their bodies swell and blood veins burst. Bleeding out of every orifice and hallucinating for 8 hours they have earned the right to procreate. --- Duke ---"
+#descr "Starfish Fungi are a part of the maturnity rituals of the Argartians. Small pieces of these fungi are consumed by the adolescents. Their bodies swell and blood veins burst. Bleeding out of every orifice and hallucinating for 8 hours they have earned the right to procreate. - Duke"
 #startage 120
 #maxage 5000
 #end
@@ -1362,7 +1363,7 @@ Priest: Strong"
 #path 0 7
 #pathlevel 0 2
 #researchlevel 0
-#restricted 93
+#restricted 120
 #nreff 1
 #end
 
@@ -1378,7 +1379,7 @@ Priest: Strong"
 #fatiguecost 4000
 #researchlevel 5
 #nextspell "StarfishCommander"
-#restricted 93
+#restricted 120
 #end
 
 #newmonster 3585
@@ -1386,7 +1387,7 @@ Priest: Strong"
 #name "Infected Great Hawk"
 #spr1 "./Myconos/GreatHawk_11.tga"
 #spr2 "./Myconos/GreatHawk_12.tga"
-#descr "Once a proud leader and king of the sky. Hawks still flock around these great birds but only to become infected and diseased by it. --- Duke ---"
+#descr "Once a proud leader and king of the sky. Hawks still flock around these great birds but only to become infected and diseased by it. - Duke"
 #makemonster1 3766
 #berserk 1
 #noitem
@@ -1402,7 +1403,7 @@ Priest: Strong"
 #path 0 1
 #pathlevel 0 2
 #researchlevel 0
-#restricted 93
+#restricted 120
 #nreff 1
 #end
 
@@ -1418,7 +1419,7 @@ Priest: Strong"
 #fatiguecost 500
 #researchlevel 3
 #nextspell "HawkCommander"
-#restricted 93
+#restricted 120
 #end
 
 #newmonster 3586
@@ -1470,7 +1471,7 @@ Priest: Strong"
 #itemslots 15366
 #magicskill 8 1
 #magicskill 3 2
-#onebattlespell 635
+#commaster
 #secondshape 3765
 #descr "Old farmer Jacob had the biggest pile of dung. Unfortunately he died before he could spread it out over his fields. A small spore landed on top and started feasting. Eventually he ate it all and became the stongest warrior ever known in Myconos. Dung is quite intelligent too. As long as the conversation is about dung."
 #end
@@ -1646,7 +1647,7 @@ Priest: Strong"
 #heal
 #landshape 3832
 #poorleader
-#descr "Masters of the grid, these mighty fungi from the deep are what keeps Oceania at bay when trying to harvest Myconids young. They are able to travel on land and take the water with them. Although this can't prevent them from drying out and they need to get back into the water in one month. --- Duke ---"
+#descr "Masters of the grid, these mighty fungi from the deep are what keeps Oceania at bay when trying to harvest Myconids young. They are able to travel on land and take the water with them. Although this can't prevent them from drying out and they need to get back into the water in one month. - Duke"
 #weapon 271
 #weapon 271
 #weapon 86
@@ -1688,7 +1689,7 @@ Priest: Strong"
 #heal
 #watershape 3831
 #poorleader
-#descr "Masters of the grid, these mighty fungi from the deep are what keeps Oceania at bay when trying to harvest Myconids young. They are able to travel on land and take the water with them. Although this can't prevent them from drying out and they need to get back into the water in one month. --- Duke ---"
+#descr "Masters of the grid, these mighty fungi from the deep are what keeps Oceania at bay when trying to harvest Myconids young. They are able to travel on land and take the water with them. Although this can't prevent them from drying out and they need to get back into the water in one month. - Duke"
 
 #weapon 271
 #weapon 271
@@ -1712,7 +1713,7 @@ Priest: Strong"
 #size 1
 #str 5
 #att 10
-#descr "It's a little baby mushroom! Awww .... isn't it cute. --- Duke ---"
+#descr "It's a little baby mushroom! Awww .... isn't it cute. - Duke"
 #blind
 #holy
 #amphibian
@@ -1880,7 +1881,7 @@ Priest: Strong"
 #name "Parasite"
 #spr1 "./Myconos/TinyParasite_11.tga"
 #spr2 "./Myconos/TinyParasite_12.tga"
-#descr "A viscious little parasite. When it's fully grown and the host dies it will search a fresh body or corpse and transforms it into a large hard pupa. Inside, the parasite will transform to the second stage of it's life cycle. The form it takes is mostly determent by the environment the pupa resides. --- Duke ---"
+#descr "A viscious little parasite. When it's fully grown and the host dies it will search a fresh body or corpse and transforms it into a large hard pupa. Inside, the parasite will transform to the second stage of it's life cycle. The form it takes is mostly determent by the environment the pupa resides. - Duke"
 #mapmove 1
 #prot 0
 #enc 1
@@ -1925,7 +1926,7 @@ Priest: Strong"
 #weapon 63
 #poisonres 50
 #noitem
-#descr "A viscious little parasite. When it's fully grown and the host dies it will search a fresh body or corpse and transforms it into a large hard pupa. Inside, the parasite will transform to the second stage of it's life cycle. The form it takes is mostly determent by the environment the pupa resides. --- Duke ---"
+#descr "A viscious little parasite. When it's fully grown and the host dies it will search a fresh body or corpse and transforms it into a large hard pupa. Inside, the parasite will transform to the second stage of it's life cycle. The form it takes is mostly determent by the environment the pupa resides. - Duke"
 #noleader
 #firstshape 3842
 #fireres 50
@@ -1951,7 +1952,7 @@ Priest: Strong"
 #att 0
 #prec 0
 #mor 99
-#descr "This egg is extremely hot. There must be a hellish beast growing inside. Hmm .... I wonder what would happen if one tries to cook it? Or bake, or poach, scramble .... --- Duke ---"
+#descr "This egg is extremely hot. There must be a hellish beast growing inside. Hmm .... I wonder what would happen if one tries to cook it? Or bake, or poach, scramble .... - Duke"
 #firstshape 3843
 #fireres 100
 #noleader
@@ -1966,7 +1967,7 @@ Priest: Strong"
 #spr1 "./Myconos/LavaEgg.tga"
 #spr2 "./Myconos/LavaEgg.tga"
 #firstshape 3844
-#descr "This egg is extremely hot. There must be a hellish beast growing inside. Hmm .... I wonder what would happen if one tries to cook it? Or bake, or poach, scramble .... --- Duke ---"
+#descr "This egg is extremely hot. There must be a hellish beast growing inside. Hmm .... I wonder what would happen if one tries to cook it? Or bake, or poach, scramble .... - Duke"
 #end
 
 #newmonster 3844
@@ -1975,7 +1976,7 @@ Priest: Strong"
 #spr1 "./Myconos/LavaEgg.tga"
 #spr2 "./Myconos/LavaEgg.tga"
 #firstshape 3845
-#descr "This egg is extremely hot. There must be a hellish beast growing inside. Hmm .... I wonder what would happen if one tries to cook it? Or bake, or poach, scramble .... --- Duke ---"
+#descr "This egg is extremely hot. There must be a hellish beast growing inside. Hmm .... I wonder what would happen if one tries to cook it? Or bake, or poach, scramble .... - Duke"
 #end
 
 #newmonster 3845
@@ -2007,7 +2008,7 @@ Priest: Strong"
 #poorleader
 #poorundeadleader
 #demon
-#descr "A fire breathing Hell Hound. And I call her Fifi .... --- Duke ---"
+#descr "A fire breathing Hell Hound. And I call her Fifi .... - Duke"
 #noitem
 #end
 
@@ -2032,7 +2033,7 @@ Priest: Strong"
 #mor 10
 #weapon 63
 #blind
-#descr "When a second stage host dies it's reported that a large, almost man high, leech like creature emerges from the corpse. The Myconids tell stories that after large battles these creatures sucked several bodies dry to transform into large immobile cocoons. Unfortunatly they didn't bring a specimen home as they burned them all. At this stage one can only wonder what vile creatures will spawn from this.--- Duke ---"
+#descr "When a second stage host dies it's reported that a large, almost man high, leech like creature emerges from the corpse. The Myconids tell stories that after large battles these creatures sucked several bodies dry to transform into large immobile cocoons. Unfortunatly they didn't bring a specimen home as they burned them all. At this stage one can only wonder what vile creatures will spawn from this.- Duke"
 #firstshape 3847
 #fireres 50
 #end
@@ -2117,9 +2118,9 @@ Priest: Strong"
 #weapon 229
 #coldres -50
 #goodundeadleader
-#onebattlespell 635
+#commaster
 #magicskill 7 2
-#descr "Even Devil's in Hell have things they are affraid of."
+#descr "Even Devil's in Hell have things they are afraid of."
 #end
 
 #newmonster 3804
@@ -2146,8 +2147,8 @@ Priest: Strong"
 #maxage 50
 #blind
 #noitem
-#descr "In contrast to the younger mushrooms they have a means of transportation. They dissolve in the Mycelial cords and grow at the disired destination. Animals eat these mushrooms and often poop in the vicinity which in turn provides nutrients for the fungus. Now they are one of the largest contributeurs to the parasitic spread. They are in constand connection with the collective. --- Duke ---"
-#onebattlespell 815
+#descr "In contrast to the younger mushrooms they have a means of transportation. They dissolve in the Mycelial cords and grow at the disired destination. Animals eat these mushrooms and often poop in the vicinity which in turn provides nutrients for the fungus. Now they are one of the largest contributeurs to the parasitic spread. They are in constant connection with the collective. - Duke"
+#comslave
 #poisonres 50
 #holy
 #weapon 300
@@ -2182,8 +2183,8 @@ Priest: Strong"
 #maxage 50
 #blind
 #noitem
-#descr "In contrast to the younger mushrooms they have a means of transportation. They dissolve in the Mycelial cords and grow at the disired destination. Animals eat these mushrooms and often poop in the vicinity which in turn provides nutrients for the fungus. Now they are one of the largest contributeurs to the parasitic spread. They are in constand connection with the collective. --- Duke ---"
-#onebattlespell 815
+#descr "In contrast to the younger mushrooms they have a means of transportation. They dissolve in the Mycelial cords and grow at the disired destination. Animals eat these mushrooms and often poop in the vicinity which in turn provides nutrients for the fungus. Now they are one of the largest contributeurs to the parasitic spread. They are in constant connection with the collective. - Duke"
+#comslave
 #poisonres 50
 #holy
 #weapon 300
@@ -2218,8 +2219,8 @@ Priest: Strong"
 #maxage 50
 #blind
 #noitem
-#descr "In contrast to the younger mushrooms they have a means of transportation. They dissolve in the Mycelial cords and grow at the disired destination. Animals eat these mushrooms and often poop in the vicinity which in turn provides nutrients for the fungus. Now they are one of the largest contributeurs to the parasitic spread. They are in constand connection with the collective. --- Duke ---"
-#onebattlespell 815
+#descr "In contrast to the younger mushrooms they have a means of transportation. They dissolve in the Mycelial cords and grow at the disired destination. Animals eat these mushrooms and often poop in the vicinity which in turn provides nutrients for the fungus. Now they are one of the largest contributeurs to the parasitic spread. They are in constant connection with the collective. - Duke"
+#comslave
 #poisonres 50
 #holy
 #weapon 300
@@ -2254,8 +2255,8 @@ Priest: Strong"
 #maxage 50
 #blind
 #noitem
-#descr "In contrast to the younger mushrooms they have a means of transportation. They dissolve in the Mycelial cords and grow at the disired destination. Animals eat these mushrooms and often poop in the vicinity which in turn provides nutrients for the fungus. Now they are one of the largest contributeurs to the parasitic spread. They are in constand connection with the collective. --- Duke ---"
-#onebattlespell 815
+#descr "In contrast to the younger mushrooms they have a means of transportation. They dissolve in the Mycelial cords and grow at the disired destination. Animals eat these mushrooms and often poop in the vicinity which in turn provides nutrients for the fungus. Now they are one of the largest contributeurs to the parasitic spread. They are in constant connection with the collective. - Duke"
+#comslave
 #poisonres 50
 #holy
 #weapon 300
@@ -2290,8 +2291,8 @@ Priest: Strong"
 #maxage 50
 #blind
 #noitem
-#descr "In contrast to the younger mushrooms they have a means of transportation. They dissolve in the Mycelial cords and grow at the disired destination. Animals eat these mushrooms and often poop in the vicinity which in turn provides nutrients for the fungus. Now they are one of the largest contributeurs to the parasitic spread. They are in constand connection with the collective. --- Duke ---"
-#onebattlespell 815
+#descr "In contrast to the younger mushrooms they have a means of transportation. They dissolve in the Mycelial cords and grow at the disired destination. Animals eat these mushrooms and often poop in the vicinity which in turn provides nutrients for the fungus. Now they are one of the largest contributeurs to the parasitic spread. They are in constant connection with the collective. - Duke"
+#comslave
 #poisonres 50
 #holy
 #weapon 300
@@ -2313,7 +2314,7 @@ Priest: Strong"
 #berserk 1
 #secondshape 3765
 #amphibian
-#descr "A moose, is but a moose, is but a moose ...  --- Duke ---"
+#descr "A moose, is but a moose, is but a moose ...  - Duke"
 #end
 
 #newmonster 3854
@@ -2375,7 +2376,7 @@ Priest: Strong"
 #prec 0
 #mor 99
 #poisonres 50
-#descr "A Blood Egg is a rare find. Inside, a parasite is floating in liquid blood. As scary as that is the blood also causes tough stains. Luckily my wife is far away an my robe is kind of redish. --- Duke ---"
+#descr "A Blood Egg is a rare find. Inside, a parasite is floating in liquid blood. As scary as that is the blood also causes tough stains. Luckily my wife is far away an my robe is kind of redish. - Duke"
 #firstshape 3858
 #blind
 #end
@@ -2433,7 +2434,7 @@ Priest: Strong"
 #weapon 63
 #poisonres 50
 #blind
-#descr "When a second stage host dies it's reported that a large, almost man high, leech like creature emerges from the corpse. The Myconids tell stories that after large battles these creatures sucked several bodies dry to transform into large immobile cocoons. Unfortunatly they didn't bring a specimen home as they burned them all. At this stage one can only wonder what vile creatures will spawn from this.--- Duke ---"
+#descr "When a second stage host dies it's reported that a large, almost man high, leech like creature emerges from the corpse. The Myconids tell stories that after large battles these creatures sucked several bodies dry to transform into large immobile cocoons. Unfortunatly they didn't bring a specimen home as they burned them all. At this stage one can only wonder what vile creatures will spawn from this.- Duke"
 #firstshape 3860
 #end
 
@@ -2456,7 +2457,7 @@ Priest: Strong"
 #prec 0
 #mor 99
 #poisonres 50
-#descr "A Blood Egg is a rare find. Inside, a parasite is floating in liquid blood. As scary as that is the blood also causes tough stains. Luckily my wife is far away and my robe is kind of redish. --- Duke ---"
+#descr "A Blood Egg is a rare find. Inside, a parasite is floating in liquid blood. As scary as that is the blood also causes tough stains. Luckily my wife is far away and my robe is kind of redish. - Duke"
 #firstshape 3861
 #fear 0
 #noitem
@@ -2469,7 +2470,7 @@ Priest: Strong"
 #spr1 "./Myconos/BloodEggLarge.tga"
 #spr2 "./Myconos/BloodEggLarge.tga"
 #firstshape 3862
-#descr "A Blood Egg is a rare find. Inside, a parasite is floating in liquid blood. As scary as that is the blood also causes tough stains. Luckily my wife is far away and my robe is kind of redish. --- Duke ---"
+#descr "A Blood Egg is a rare find. Inside, a parasite is floating in liquid blood. As scary as that is the blood also causes tough stains. Luckily my wife is far away and my robe is kind of redish. - Duke"
 #end
 
 #newmonster 3862
@@ -2478,7 +2479,7 @@ Priest: Strong"
 #spr1 "./Myconos/BloodEggLarge.tga"
 #spr2 "./Myconos/BloodEggLarge.tga"
 #firstshape 3863
-#descr "A Blood Egg is a rare find. Inside, a parasite is floating in liquid blood. As scary as that is the blood also causes tough stains. Luckily my wife is far away and my robe is kind of redish. --- Duke ---"
+#descr "A Blood Egg is a rare find. Inside, a parasite is floating in liquid blood. As scary as that is the blood also causes tough stains. Luckily my wife is far away and my robe is kind of redish. - Duke"
 #end
 
 #newmonster 3863
@@ -2515,7 +2516,7 @@ Priest: Strong"
 #okundeadleader
 #banefireshield 8
 #mr 16
-#onebattlespell 635
+#commaster
 #mountainsurvival
 #wastesurvival
 #descr "During the second plaque of the last Era a pile of a thousand bodies was formed. Unable to bury the dead, blood and disease seeped into the ground. That was when this evil spawned for the first time."
@@ -2544,8 +2545,8 @@ Priest: Strong"
 #maxage 50
 #blind
 #noitem
-#descr "In contrast to the younger mushrooms they have a means of transportation. They dissolve in the Mycelial cords and grow at the disired destination. Animals eat these mushrooms and often poop in the vicinity which in turn provides nutrients for the fungus. Now they are one of the largest contributeurs to the parasitic spread. They are in constand connection with the collective. --- Duke ---"
-#onebattlespell 815
+#descr "In contrast to the younger mushrooms they have a means of transportation. They dissolve in the Mycelial cords and grow at the disired destination. Animals eat these mushrooms and often poop in the vicinity which in turn provides nutrients for the fungus. Now they are one of the largest contributeurs to the parasitic spread. They are in constant connection with the collective. - Duke"
+#comslave
 #poisonres 50
 #holy
 #weapon 300
@@ -2579,8 +2580,8 @@ Priest: Strong"
 #maxage 50
 #blind
 #noitem
-#descr "In contrast to the younger mushrooms they have a means of transportation. They dissolve in the Mycelial cords and grow at the disired destination. Animals eat these mushrooms and often poop in the vicinity which in turn provides nutrients for the fungus. Now they are one of the largest contributeurs to the parasitic spread. They are in constand connection with the collective. --- Duke ---"
-#onebattlespell 815
+#descr "In contrast to the younger mushrooms they have a means of transportation. They dissolve in the Mycelial cords and grow at the disired destination. Animals eat these mushrooms and often poop in the vicinity which in turn provides nutrients for the fungus. Now they are one of the largest contributeurs to the parasitic spread. They are in constant connection with the collective. - Duke"
+#comslave
 #poisonres 50
 #holy
 #weapon 300
@@ -2614,8 +2615,8 @@ Priest: Strong"
 #maxage 50
 #blind
 #noitem
-#descr "In contrast to the younger mushrooms they have a means of transportation. They dissolve in the Mycelial cords and grow at the disired destination. Animals eat these mushrooms and often poop in the vicinity which in turn provides nutrients for the fungus. Now they are one of the largest contributeurs to the parasitic spread. They are in constand connection with the collective. --- Duke ---"
-#onebattlespell 815
+#descr "In contrast to the younger mushrooms they have a means of transportation. They dissolve in the Mycelial cords and grow at the disired destination. Animals eat these mushrooms and often poop in the vicinity which in turn provides nutrients for the fungus. Now they are one of the largest contributeurs to the parasitic spread. They are in constant connection with the collective. - Duke"
+#comslave
 #poisonres 50
 #holy
 #weapon 300
@@ -2649,8 +2650,8 @@ Priest: Strong"
 #maxage 50
 #blind
 #noitem
-#descr "In contrast to the younger mushrooms they have a means of transportation. They dissolve in the Mycelial cords and grow at the disired destination. Animals eat these mushrooms and often poop in the vicinity which in turn provides nutrients for the fungus. Now they are one of the largest contributeurs to the parasitic spread. They are in constand connection with the collective. --- Duke ---"
-#onebattlespell 815
+#descr "In contrast to the younger mushrooms they have a means of transportation. They dissolve in the Mycelial cords and grow at the disired destination. Animals eat these mushrooms and often poop in the vicinity which in turn provides nutrients for the fungus. Now they are one of the largest contributeurs to the parasitic spread. They are in constant connection with the collective. - Duke"
+#comslave
 #poisonres 50
 #holy
 #weapon 300
@@ -2684,8 +2685,8 @@ Priest: Strong"
 #maxage 50
 #blind
 #noitem
-#descr "In contrast to the younger mushrooms they have a means of transportation. They dissolve in the Mycelial cords and grow at the disired destination. Animals eat these mushrooms and often poop in the vicinity which in turn provides nutrients for the fungus. Now they are one of the largest contributeurs to the parasitic spread. They are in constand connection with the collective. --- Duke ---"
-#onebattlespell 815
+#descr "In contrast to the younger mushrooms they have a means of transportation. They dissolve in the Mycelial cords and grow at the disired destination. Animals eat these mushrooms and often poop in the vicinity which in turn provides nutrients for the fungus. Now they are one of the largest contributeurs to the parasitic spread. They are in constant connection with the collective. - Duke"
+#comslave
 #poisonres 50
 #holy
 #weapon 300
@@ -2788,7 +2789,7 @@ Priest: Strong"
 #name "Parasite"
 #spr1 "./Myconos/TinyParasite_11.tga"
 #spr2 "./Myconos/TinyParasite_12.tga"
-#descr "A viscious little parasite. When it's fully grown and the host dies it will search a fresh body or corpse and transforms it into a large hard pupa. Inside, the parasite will transform to the second stage of it's life cycle. The form it takes is mostly determent by the environment the pupa resides. --- Duke ---"
+#descr "A viscious little parasite. When it's fully grown and the host dies it will search a fresh body or corpse and transforms it into a large hard pupa. Inside, the parasite will transform to the second stage of it's life cycle. The form it takes is mostly determent by the environment the pupa resides. - Duke"
 #mapmove 1
 #prot 0
 #enc 1
@@ -2829,7 +2830,7 @@ Priest: Strong"
 #immobile
 #blind
 #poisonarmor
-#descr "A sack filled with disease and poison. And worse, a mind snatching parasite. --- Duke ---"
+#descr "A sack filled with disease and poison. And worse, a mind snatching parasite. - Duke"
 #firstshape 3872
 #end
 
@@ -2865,7 +2866,7 @@ Priest: Strong"
 #blind
 #weapon 142
 #poisonarmor
-#descr "If the puppa is situated in a windy place, like plains or mountains, the puppa may start to grow and antenna. This opens up after several days and is large enough to carry the puppa over great distances at low altitude. Eventually an animal will attack it and detach the sack from the antenna. Filled with poison and disease the sack will quickly kill the animal after which the parasite moves into its new host. --- Duke ---"
+#descr "If the puppa is situated in a windy place, like plains or mountains, the puppa may start to grow and antenna. This opens up after several days and is large enough to carry the puppa over great distances at low altitude. Eventually an animal will attack it and detach the sack from the antenna. Filled with poison and disease the sack will quickly kill the animal after which the parasite moves into its new host. - Duke"
 #end
 
 #newmonster 3788
@@ -2888,7 +2889,7 @@ Priest: Strong"
 #immobile
 #blind
 #poisonarmor
-#descr "A sack filled with disease and poison. And worse, a mind snatching parasite. --- Duke ---"
+#descr "A sack filled with disease and poison. And worse, a mind snatching parasite. - Duke"
 #firstshape 3789
 #end
 
@@ -2911,7 +2912,7 @@ Priest: Strong"
 #att 0
 #mor 99
 #blind
-#descr "As we only have a dead one for research, not much is known. I did stick my finger in it and I can positively say: it smelled worse then the morning after I've had broccoli for dinner. --- Duke ---"
+#descr "As we only have a dead one for research, not much is known. I did stick my finger in it and I can positively say: it smelled worse then the morning after I've had broccoli for dinner. - Duke"
 #immobile
 #forestshape 3873
 #end
@@ -2922,7 +2923,7 @@ Priest: Strong"
 #spr1 "./Myconos/CocoonLarge.tga"
 #spr2 "./Myconos/CocoonLarge.tga"
 #firstshape 3791
-#descr "As we only have a dead one for research not much is known. I did stick my finger in it and I can positively say: it smelled worse then the morning after I've had broccoli for dinner. ---Duke---"
+#descr "As we only have a dead one for research not much is known. I did stick my finger in it and I can positively say: it smelled worse then the morning after I've had broccoli for dinner. - Duke"
 #end
 
 #newmonster 3791
@@ -2931,7 +2932,7 @@ Priest: Strong"
 #spr1 "./Myconos/CocoonLarge.tga"
 #spr2 "./Myconos/CocoonLarge.tga"
 #firstshape 3792
-#descr "As we only have a dead one for research not much is known. I did stick my finger in it and I can positively say: it smelled worse then the morning after I've had broccoli for dinner. ---Duke---"
+#descr "As we only have a dead one for research not much is known. I did stick my finger in it and I can positively say: it smelled worse then the morning after I've had broccoli for dinner. - Duke"
 #end
 
 #newmonster 3792
@@ -2960,8 +2961,8 @@ Priest: Strong"
 #shockres 50
 #illusion
 #itemslots 12416
-#descr "Eerie, high pitched squeals are a sign of trouble. The myconids claim these creatures have only appeared after the infection started. When they are not making sound these are very hard to spot and can surprise even the most vigilant prey. Their behaviour suggest intelligence and they might even have some magical aptitude. --- Duke ---"
-#onebattlespell 635
+#descr "Eerie, high pitched squeals are a sign of trouble. The myconids claim these creatures have only appeared after the infection started. When they are not making sound these are very hard to spot and can surprise even the most vigilant prey. Their behaviour suggest intelligence and they might even have some magical aptitude. - Duke"
+#commaster
 #weapon 232
 #weapon 232
 #weapon 251
@@ -2987,7 +2988,7 @@ Priest: Strong"
 #att 0
 #mor 99
 #blind
-#descr "It looks like a pillow. It's soft as a pillow. But when you sleep on it you won't wake up. What is it? --- Duke ---"
+#descr "It looks like a pillow. It's soft as a pillow. But when you sleep on it you won't wake up. What is it? - Duke"
 #immobile
 #awe 1
 #firstshape 3874
@@ -2999,7 +3000,7 @@ Priest: Strong"
 #spr1 "./Myconos/SilkCocoon.tga"
 #spr2 "./Myconos/SilkCocoon.tga"
 #firstshape 3875
-#descr "It looks like a pillow. It's soft as a pillow. But when you sleep on it you won't wake up. What is it? --- Duke ---"
+#descr "It looks like a pillow. It's soft as a pillow. But when you sleep on it you won't wake up. What is it? - Duke"
 #end
 
 #newmonster 3875
@@ -3008,7 +3009,7 @@ Priest: Strong"
 #spr1 "./Myconos/SilkCocoon.tga"
 #spr2 "./Myconos/SilkCocoon.tga"
 #firstshape 3876
-#descr "It looks like a pillow. It's soft as a pillow. But when you sleep on it you won't wake up. What is it? --- Duke ---"
+#descr "It looks like a pillow. It's soft as a pillow. But when you sleep on it you won't wake up. What is it? - Duke"
 #end
 
 #newmonster 3876
@@ -3037,21 +3038,21 @@ Priest: Strong"
 #maxage 50
 #magicskill 1 2
 #magicskill 4 2
-#onebattlespell 635
+#commaster
 #weapon 619
 #weapon 619
 #weapon 619
 #weapon 619
 #weapon 417
 #ambidextrous 8
-#descr "Monkeys are monkeys. But they don't want to be monkeys. They want to be something more. Therefore they ask questions and  reach for the stars. The Celestial Bandar are most physically and mentally evolved of all monkeys."
+#descr "Monkeys are monkeys. But they don't want to be monkeys. They want to be something more. Therefore they ask questions and reach for the stars. The Celestial Bandar are most physically and mentally evolved of all monkeys."
 #end
 
 #newmonster 3883
 #name "Myconid Queen"
 #spr1 "./Myconos/QueenMyconid_11.tga"
 #spr2 "./Myconos/QueenMyconid_12.tga"
-#restrictedgod 93
+#restrictedgod 120
 #secondshape 3884
 #prot 12
 #mor 30
@@ -3212,7 +3213,7 @@ Priest: Strong"
 #fatiguecost 6000
 #damage 3582
 #effect 10021
-#restricted 93
+#restricted 120
 #descr "Summons a Blood Fungus"
 #end
 
