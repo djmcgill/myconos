@@ -1,0 +1,49 @@
+#name "Velite"
+#copystats 684
+#newmonster 3761 #firstshape 3762
+#newmonster 3762 #firstshape 3763
+#newmonster 3763 #firstshape 3764
+#newmonster 3764 #secondshape 3765
+
+#name "Black Hawk"
+#copystats 517
+#newmonster 3766 #firstshape 3767
+#newmonster 3767 #firstshape 3768
+#newmonster 3768 #firstshape 3769
+#newmonster 3769 #secondshape 3870
+
+
+#name "Boar"
+#copystats 549
+#newmonster 3770 #firstshape 3771
+#newmonster 3771 #firstshape 3772
+#newmonster 3772 #firstshape 3773
+#newmonster 3773 #secondshape 3765
+
+#name "Parasite"
+#newmonster 3765 #firstshape 3774
+#newmonster 3800 #firstshape 3774
+
+#name "Pupa"
+#newmonster 3774 #firstshape 3775
+#newmonster 3775 #firstshape 3857 #watershape 3777 #forestshape 3776
+#newmonster 3776 #firstshape 3793
+
+#name "Small Fish Egg"
+#newmonster 3777 #firstshape 3778
+#newmonster 3778 #firstshape 3779
+
+#name "Swamp Monster"
+#newmonster 3779 #secondshape 3782
+
+
+#name "Large Parasite"
+#newmonster 3782 #firstshape 3783
+
+#name "Large Fish Egg"
+#newmonster 3783 #firstshape 3784
+#newmonster 3784 #firstshape 3785
+#newmonster 3785 #firstshape 3786
+
+#name "Serpent"
+#newmonster 3786

@@ -9,7 +9,7 @@ Uses the following IDS
 Nation: 93
 Monsters: 3570-3588, 3761-3809, 3829-3833, 3835-3893
 Weapons: 613-619
-Armor: 
+Armor:
 Sites: 895-896
 
 #selectnation 120
@@ -31,9 +31,9 @@ Sites: 895-896
 #deepfort 13
 #uwcom1 3799
 #descr "After the Cataclysm the Myconids found a strange shard. It's a potent source of magic kept hidden in the deepest cave. Only the wisest mage was allowed in, to gather the magic the shard secreted. To keep it secret he worked of the Mycelial network spanning Myconos. Years went by, until the mage past away. Troubles started when his body was absorbed by the Mycelial grid at the burial ceremony. The parasites from the shard that had incubated in his body for so long were released. Within weeks the Myconids started to behave strangely and dying in droves. Large groups of fungi disconnected themselves from the network. Faced with the collapse of the Kingdom the counsil of Myconid mages sent for help to the neighboring Pythians. Long time allies, the Pythians sent a regiment of legionaires and 2 bright researchers. Voland an eager young upstart, and Duke a respected arch theurg well know for it's bestsellers: 'Why beef is better than fish. Vol I & II'"
-#summary "Race: Fungi & Parasitic creatures. 
-Military: Infected animals, Hawks, Boars, Heavy Myconid warriors. 
-Magic: Air, Nature, Earth, Water. 
+#summary "Race: Fungi & Parasitic creatures.
+Military: Infected animals, Hawks, Boars, Heavy Myconid warriors.
+Magic: Air, Nature, Earth, Water.
 Priest: Strong"
 #startsite "Comet Shard"
 #flag "./Myconos/Flag.tga"
@@ -904,7 +904,7 @@ Priest: Strong"
 
 #newspell
 #copyspell "Gift of Reason"
-#name "Possession" 
+#name "Possession"
 #descr "The caster overwhelms the mind of another being and takes control. The spell targets a friendly unit in the same province that is neither undead nor a commander. The caster takes full control of their new body, though the old one dies along with any magic power the caster possessed."
 #spec 8912896
 #fatiguecost 200
