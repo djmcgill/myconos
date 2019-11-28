@@ -1378,7 +1378,7 @@ Priest: Strong"
 #nreff 1005
 #fatiguecost 4000
 #researchlevel 5
-#nextspell "StarfishCommander"
+#nextspell "Starfish Commander"
 #restricted 120
 #end
 
