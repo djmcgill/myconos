@@ -16,6 +16,9 @@ Sites: 895-896
 #name "Myconos"
 #era 2
 #epithet "Last of the Fungi"
+#homerealm 9
+#homerealm 10
+#addgod 3883
 #startscout 3808
 #startcom 3761
 #startunittype1 3762
@@ -356,7 +359,7 @@ Priest: Strong"
 #str 0
 #att 0
 #prec 0
-#mor 99
+#mor 50
 #poisonres 50
 #descr "The pupa has a hard other shell of chitin but is easy to breach for a determent person as it has no defensive capabilities. Inside, the larve is transforming into a new form. The duration and the form it will take is dependent not on the genotype but on enviromental factors.- Duke"
 #end
@@ -402,7 +405,7 @@ Priest: Strong"
 #size 2
 #str 0
 #att 0
-#mor 99
+#mor 50
 #poisonres 50
 #immobile
 #descr "Yuk, I hate fish. - Duke"
@@ -491,7 +494,7 @@ Priest: Strong"
 #size 3
 #str 0
 #att 0
-#mor 99
+#mor 50
 #poisonres 50
 #descr "Large they are even more gross. - Duke"
 #end
@@ -563,7 +566,7 @@ Priest: Strong"
 #size 4
 #str 0
 #att 0
-#mor 99
+#mor 50
 #poisonres 50
 #blind
 #descr "The pupa has a hard other shell of chitin but is easy to breach for a determent person as it has no defensive capabilities. Inside, the larve is transforming into a new form. The duration and the form it will take is dependent not on the genotype but on enviromental factors.- Duke"
@@ -624,7 +627,7 @@ Priest: Strong"
 #size 4
 #str 0
 #att 0
-#mor 99
+#mor 50
 #blind
 #regeneration 10
 #descr "These pupa's are pulsing with life. When you look at them nothing seems to change but walk away for a minute and you'll swear it's grown. Unfortunatly I left it for a moment only to find a Myconid commander hacking into it. I dared not approach. Nevertheless, it took him almost ten minutes to kill the thing. - Duke"
@@ -1302,7 +1305,7 @@ Priest: Strong"
 #size 6
 #att 10
 #prec 14
-#mor 99
+#mor 50
 #blind
 #horrormark
 #poisonarmor
@@ -1342,7 +1345,7 @@ Priest: Strong"
 #size 3
 #att 10
 #prec 12
-#mor 99
+#mor 50
 #enc 4
 #blind
 #horrormark
@@ -1522,7 +1525,7 @@ Priest: Strong"
 #coldres 100
 #startage 1000
 #maxage 5000
-#standard 20
+#inspirational 20
 #berserk 5
 #poisonarmor
 #neednoteat
@@ -1951,7 +1954,7 @@ Priest: Strong"
 #str 0
 #att 0
 #prec 0
-#mor 99
+#mor 50
 #descr "This egg is extremely hot. There must be a hellish beast growing inside. Hmm .... I wonder what would happen if one tries to cook it? Or bake, or poach, scramble .... - Duke"
 #firstshape 3843
 #fireres 100
@@ -2055,7 +2058,7 @@ Priest: Strong"
 #str 0
 #att 0
 #prec 0
-#mor 99
+#mor 50
 #descr "An egg made of pure evil."
 #fireres 100
 #speciallook 1
@@ -2374,7 +2377,7 @@ Priest: Strong"
 #str 0
 #att 0
 #prec 0
-#mor 99
+#mor 50
 #poisonres 50
 #descr "A Blood Egg is a rare find. Inside, a parasite is floating in liquid blood. As scary as that is the blood also causes tough stains. Luckily my wife is far away an my robe is kind of redish. - Duke"
 #firstshape 3858
@@ -2455,7 +2458,7 @@ Priest: Strong"
 #str 0
 #att 0
 #prec 0
-#mor 99
+#mor 50
 #poisonres 50
 #descr "A Blood Egg is a rare find. Inside, a parasite is floating in liquid blood. As scary as that is the blood also causes tough stains. Luckily my wife is far away and my robe is kind of redish. - Duke"
 #firstshape 3861
@@ -2694,7 +2697,7 @@ Priest: Strong"
 #researchbonus -1
 #poorleader
 #domsummon2 3769
-#firstshape 3802
+-- FIXME #firstshape 3802
 #end
 
 #newmonster 3866
@@ -2826,7 +2829,7 @@ Priest: Strong"
 #size 2
 #str 0
 #att 0
-#mor 99
+#mor 50
 #immobile
 #blind
 #poisonarmor
@@ -2885,7 +2888,7 @@ Priest: Strong"
 #size 2
 #str 0
 #att 0
-#mor 99
+#mor 50
 #immobile
 #blind
 #poisonarmor
@@ -2910,7 +2913,7 @@ Priest: Strong"
 #size 3
 #str 0
 #att 0
-#mor 99
+#mor 50
 #blind
 #descr "As we only have a dead one for research, not much is known. I did stick my finger in it and I can positively say: it smelled worse then the morning after I've had broccoli for dinner. - Duke"
 #immobile
@@ -2986,7 +2989,7 @@ Priest: Strong"
 #size 3
 #str 0
 #att 0
-#mor 99
+#mor 50
 #blind
 #descr "It looks like a pillow. It's soft as a pillow. But when you sleep on it you won't wake up. What is it? - Duke"
 #immobile
@@ -3083,7 +3086,7 @@ Priest: Strong"
 #incunrest -20
 #descr "With the King far away, uniting pockets of healthy Myconids, the queen stayed to watch over the capital. Her presence reduces unrest and inspires hope in desparate times. She gained much respect for fighting among the frontline troops but some have noticed strange behavior lately."
 #heal
-#standard 20
+#inspirational 20
 #end
 
 #newmonster 3884
