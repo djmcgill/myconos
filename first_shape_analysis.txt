@@ -109,7 +109,6 @@
 
 
 -- END OF CHAIN
-
 #name "Myconid Commander"
 #newmonster 3798 -- rec com
 
@@ -122,6 +121,21 @@
 #name "Psathyrella aquatic"
 #newmonster 3806 #firstshape 3877
 #newmonster 3877 #firstshape 3806
+
+#name "Enokitake"
+#newmonster 3802 #firstshape 3864
+#newmonster 3864 #firstshape 3865
+#newmonster 3865 #firstshape 3881
+#newmonster 3881 #firstshape 3882
+#newmonster 3882 #firstshape 3802  -- fixme: this is broken and was removed
+
+#name "Fly Amanita"
+#newmonster 3804 #firstshape 3851
+#newmonster 3851 #firstshape 3852
+#newmonster 3852 #firstshape 3879
+#newmonster 3879 #firstshape 3880
+#newmonster 3880 #firstshape 3804
+
 
 #name "Spore Scout"
 #newmonster 3807 -- rec comm
@@ -198,12 +212,7 @@
 #name "Hell Spawn"
 #newmonster 3850
 
-#name "Fly Amanita"
-#newmonster 3804 #firstshape 3851
-#newmonster 3851 #firstshape 3852
-#newmonster 3852 #firstshape 3879
-#newmonster 3879 #firstshape 3880
-#newmonster 3880 #firstshape 3804
+
 
 
 
@@ -215,12 +224,7 @@
 
 
 
-#name "Enokitake"
-#newmonster 3802 #firstshape 3864
-#newmonster 3864 #firstshape 3865
-#newmonster 3865 #firstshape 3881
-#newmonster 3881 #firstshape 3882
-#newmonster 3882 #firstshape 3802
+
 
 #name "Infected Winged Monkey"
 #newmonster 3868 #secondshape 3870
@@ -268,8 +272,7 @@
 #newmonster 3883 #secondshape 3884
 
 #name "Alpha Parasite"
-#newmonster 3884
-#firstshape 3885
+#newmonster 3884 #firstshape 3885
 
 #name "Giant Myconid"
 #newmonster 3885 #secondshape 3886
@@ -278,8 +281,7 @@
 #newmonster 3886 #firstshape 3887
 
 #name "Spider"
-#newmonster 3887
-#secondshape 3888
+#newmonster 3887 #secondshape 3888 -- FIXME: spider didn't secondshape correctly
 
 #name "Alpha Parasite"
 #newmonster 3888 #firstshape 3889

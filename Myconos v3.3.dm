@@ -30,9 +30,13 @@ Sites: 895-896
 #addrecunit 3577
 #addreccom 3798
 #addreccom 3799
+#uwbuild 1 -- FIXME: uw fort def
 #uwfort 12
 #deepfort 13
+
 #uwcom1 3799
+
+
 #descr "After the Cataclysm the Myconids found a strange shard. It's a potent source of magic kept hidden in the deepest cave. Only the wisest mage was allowed in, to gather the magic the shard secreted. To keep it secret he worked of the Mycelial network spanning Myconos. Years went by, until the mage past away. Troubles started when his body was absorbed by the Mycelial grid at the burial ceremony. The parasites from the shard that had incubated in his body for so long were released. Within weeks the Myconids started to behave strangely and dying in droves. Large groups of fungi disconnected themselves from the network. Faced with the collapse of the Kingdom the counsil of Myconid mages sent for help to the neighboring Pythians. Long time allies, the Pythians sent a regiment of legionaires and 2 bright researchers. Voland an eager young upstart, and Duke a respected arch theurg well know for it's bestsellers: 'Why beef is better than fish. Vol I & II'"
 #summary "Race: Fungi & Parasitic creatures.
 Military: Infected animals, Hawks, Boars, Heavy Myconid warriors.
@@ -40,8 +44,8 @@ Magic: Air, Nature, Earth, Water.
 Priest: Strong"
 #startsite "Comet Shard"
 #flag "./Myconos/Flag.tga"
-#defcom1 3799
-#defcom2 3798
+#defcom1 3798
+#defcom2 3799
 #defunit1 3769
 #defunit2 3577
 #defmult1 10
@@ -56,6 +60,8 @@ Priest: Strong"
 #multihero1 3829
 #multihero2 3830
 #uwcom 3831
+#uwcom 3799
+#uwcom 3798
 #sacrificedom
 #addrecunit 3579
 #forestfort 33
@@ -860,7 +866,7 @@ Priest: Strong"
 #onebattlespell 819
 #domsummon2 3833
 #researchbonus -1
-#firstshape 3877
+-- #firstshape 3877 FIXME: illegal shape
 #end
 
 #newmonster 3877
@@ -2157,7 +2163,7 @@ Priest: Strong"
 #weapon 300
 #weapon 613
 #researchbonus -1
-#firstshape 3851
+-- #firstshape 3851 FIXME: broken
 #domsummon20 3853
 #poorleader
 #end
