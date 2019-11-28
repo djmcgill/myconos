@@ -1,24 +1,46 @@
 #name "Velite"
 #copystats 684
-#newmonster 3761 #firstshape 3762
-#newmonster 3762 #firstshape 3763
+#newmonster 3761 #firstshape 3762 -- start commander
+#newmonster 3762 #firstshape 3763 -- start unit x10
 #newmonster 3763 #firstshape 3764
 #newmonster 3764 #secondshape 3765
 
-#name "Black Hawk"
-#copystats 517
-#newmonster 3766 #firstshape 3767
-#newmonster 3767 #firstshape 3768
-#newmonster 3768 #firstshape 3769
-#newmonster 3769 #secondshape 3870
-
-
 #name "Boar"
 #copystats 549
-#newmonster 3770 #firstshape 3771
+#newmonster 3770 #firstshape 3771 -- rec unit
 #newmonster 3771 #firstshape 3772
 #newmonster 3772 #firstshape 3773
 #newmonster 3773 #secondshape 3765
+
+#name "Granite Myconid Warrior"
+#newmonster 3577 #secondshape 3765 -- rec unit
+
+#name "City Guard"
+#newmonster 3579 #secondshape 3765 -- rec unit
+
+#name "Dung"
+#newmonster 3587 #secondshape 3765 -- hero
+
+#name "Infected Moose"
+#newmonster 3853 #secondshape 3765
+
+#name "Infected Spider"
+#newmonster 3854 #secondshape 3765
+
+#name "Infected Tiger"
+#newmonster 3866 #secondshape 3765
+
+#name "Infected Elephant"
+#newmonster 3867 #secondshape 3765
+
+#name "Infected Wolf"
+#newmonster 3869 #secondshape 3765
+
+#name "Fungi Polyp"
+#newmonster 3833 #secondshape 3800
+
+#name "Infected Markata"
+#newmonster 3855 #secondshape 3800
 
 #name "Parasite"
 #newmonster 3765 #firstshape 3774
@@ -29,6 +51,25 @@
 #newmonster 3775 #firstshape 3857 #watershape 3777 #forestshape 3776
 #newmonster 3776 #firstshape 3793
 
+-- Blood chain
+#name "Blood Egg"
+#newmonster 3857 #firstshape 3858
+
+#name "Giant Tick"
+#newmonster 3858 #secondshape 3859
+
+#name "Large Parasite"
+#newmonster 3859 #firstshape 3860
+
+#name "Large Blood Egg"
+#newmonster 3860 #firstshape 3861
+#newmonster 3861 #firstshape 3862
+#newmonster 3862 #firstshape 3863
+
+#name "Blood Beast"
+#newmonster 3863
+
+-- UW chain
 #name "Small Fish Egg"
 #newmonster 3777 #firstshape 3778
 #newmonster 3778 #firstshape 3779
@@ -47,3 +88,219 @@
 
 #name "Serpent"
 #newmonster 3786
+
+-- forest chain
+#name "Large Pupa"
+#newmonster 3793 #firstshape 3780
+
+#name "Stag Beetle"
+#newmonster 3780 #secondshape 3781
+
+#name "Large Parasite"
+#newmonster 3781 #firstshape 3794
+
+#name "Large Pupa"
+#newmonster 3794 #firstshape 3795
+#newmonster 3795 #firstshape 3796
+#newmonster 3796 #firstshape 3797
+
+#name "Stag Centaur"
+#newmonster 3797
+
+
+-- END OF CHAIN
+
+#name "Myconid Commander"
+#newmonster 3798 -- rec com
+
+#name "Magick Mushroom"
+#newmonster 3799 #firstshape 3801 -- rec com, uw com
+#newmonster 3801 #firstshape 3802 #forestshape 3803 #watershape 3805
+#newmonster 3803 #firstshape 3804
+#newmonster 3805 #firstshape 3806
+
+#name "Psathyrella aquatic"
+#newmonster 3806 #firstshape 3877
+#newmonster 3877 #firstshape 3806
+
+#name "Spore Scout"
+#newmonster 3807 -- rec comm
+
+-- start scout lmao
+#name "Voland & Duke"
+#newmonster 3808 #firstshape 3809
+#newmonster 3809 #firstshape 3570
+#newmonster 3570 #firstshape 3571
+#newmonster 3571 #firstshape 3572
+#newmonster 3572 #firstshape 3573
+#newmonster 3573 #firstshape 3574
+#newmonster 3574 #firstshape 3575
+#newmonster 3575 #firstshape 3576
+#newmonster 3576
+
+#name "Elder Council Mage"
+#newmonster 3578
+
+#name "City Guard Commander"
+#newmonster 3580 -- rec comm
+
+#name "Mold Demon"
+#newmonster 3581
+
+#name "Starfish Fungi"
+#newmonster 3583
+#newmonster 3584
+
+#name "Infected Great Hawk"
+#newmonster 3585
+
+#name "Anemone Myconid"
+#newmonster 3831 #landshape 3832 - uw com
+#newmonster 3832 #watershape 3831
+
+#name "Blood Fungus"
+#newmonster 3582 #firstshape 3835
+#newmonster 3835 #firstshape 3878
+#newmonster 3878 #firstshape 3582
+
+#name "Infected Imp"
+#newmonster 3836 #secondshape 3840
+
+#name "Infected Devil"
+#newmonster 3837 #secondshape 3841
+
+#name "Infected Harlequin"
+#newmonster 3838 #secondshape 3841
+
+#name "Infected Spine Devil"
+#newmonster 3839 #secondshape 3841
+
+#name "Parasite"
+#newmonster 3840 #firstshape 3842
+#newmonster 3841 #firstshape 3842
+
+#name "Lava Egg"
+#newmonster 3842 #firstshape 3843
+#newmonster 3843 #firstshape 3844
+#newmonster 3844 #firstshape 3845
+
+#name "Hell Hound"
+#newmonster 3845 #secondshape 3846
+
+#name "Large Parasite"
+#newmonster 3846 #firstshape 3847
+
+#name "Devil's Egg"
+#newmonster 3847 #firstshape 3848
+#newmonster 3848 #firstshape 3849
+#newmonster 3849 #firstshape 3850
+
+#name "Hell Spawn"
+#newmonster 3850
+
+#name "Fly Amanita"
+#newmonster 3804 #firstshape 3851
+#newmonster 3851 #firstshape 3852
+#newmonster 3852 #firstshape 3879
+#newmonster 3879 #firstshape 3880
+#newmonster 3880 #firstshape 3804
+
+
+
+
+#name "Infected Harpy"
+#newmonster 3856 #secondshape 3870
+
+
+
+
+
+#name "Enokitake"
+#newmonster 3802 #firstshape 3864
+#newmonster 3864 #firstshape 3865
+#newmonster 3865 #firstshape 3881
+#newmonster 3881 #firstshape 3882
+#newmonster 3882 #firstshape 3802
+
+#name "Infected Winged Monkey"
+#newmonster 3868 #secondshape 3870
+
+
+
+#name "Black Hawk"
+#copystats 517
+#newmonster 3766 #firstshape 3767 -- rec unit
+#newmonster 3767 #firstshape 3768
+#newmonster 3768 #firstshape 3769
+#newmonster 3769 #secondshape 3870
+
+#name "Parasite"
+#newmonster 3870 #firstshape 3871
+
+#name "Chrysalis"
+#newmonster 3871 #firstshape 3872
+#newmonster 3872 #firstshape 3787
+
+#name "Spore"
+#newmonster 3787 #secondshape 3788
+
+#name "Chrysalis" -- FIXME: this should be large I think
+#newmonster 3788 #firstshape 3789
+
+#name "Large Chrysalis"
+#newmonster 3789 #firstshape 3790 #forestshape 3873
+#newmonster 3790 #firstshape 3791
+#newmonster 3791 #firstshape 3792
+
+#name "Wyvern"
+#newmonster 3792
+
+#name "Silk Cocoon"
+#newmonster 3873 #firstshape 3874
+#newmonster 3874 #firstshape 3875
+#newmonster 3875 #firstshape 3876
+
+#name "Celestial Bandar"
+#newmonster 3876
+
+-- pretender
+#name "Myconid Queen"
+#newmonster 3883 #secondshape 3884
+
+#name "Alpha Parasite"
+#newmonster 3884
+#firstshape 3885
+
+#name "Giant Myconid"
+#newmonster 3885 #secondshape 3886
+
+#name "Alpha Parasite"
+#newmonster 3886 #firstshape 3887
+
+#name "Spider"
+#newmonster 3887
+#secondshape 3888
+
+#name "Alpha Parasite"
+#newmonster 3888 #firstshape 3889
+
+#name "Wyvern"
+#newmonster 3889 #secondshape 3890
+
+#name "Alpha Parasite"
+#newmonster 3890 #firstshape 3891
+
+#name "Infected Moose"
+#newmonster 3891
+#secondshape 3892
+
+#name "Alpha Parasite"
+#newmonster 3892
+#firstshape 3893
+
+#name "Bandar"
+#newmonster 3893 #secondshape 3884
+
+
+#name "Mortar Pod"
+#newmonster 3894 -- rec unit

@@ -52,7 +52,7 @@ Priest: Strong"
 #hero3 3588
 #multihero1 3829
 #multihero2 3830
-#uwcom3 3831
+#uwcom 3831
 #sacrificedom
 #addrecunit 3579
 #forestfort 33
@@ -1355,7 +1355,7 @@ Priest: Strong"
 #end
 
 #newspell
-#name "StarfishCommander"
+#name "Starfish Commander"
 #effect 10037
 #damage 3583
 #fatiguecost 0
@@ -1395,7 +1395,7 @@ Priest: Strong"
 #end
 
 #newspell
-#name "HawkCommander"
+#name "Hawk Commander"
 #effect 10037
 #damage 3585
 #fatiguecost 0
