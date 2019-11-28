@@ -1418,7 +1418,7 @@ Priest: Strong"
 #nreff 1018
 #fatiguecost 500
 #researchlevel 3
-#nextspell "HawkCommander"
+#nextspell "Hawk Commander"
 #restricted 120
 #end
 
