@@ -23,18 +23,25 @@ Sites: 895-896
 #startcom 3761
 #startunittype1 3762
 #startunitnbrs1 10
+
 #addrecunit 3766
 #addrecunit 3770
 #addrecunit 3894
-#addreccom 3807
+
+#addreccom 3807 -- spore scout
+
 #addrecunit 3577
 #addreccom 3798
-#addreccom 3799
+#addreccom 3799 -- magick mushroom
+#addrecunit 3579
+#addreccom 3580 -- city guard commander
+
+
 #uwbuild 1 -- FIXME: uw fort def
 #uwfort 12
 #deepfort 13
 
-#uwcom1 3799
+#uwcom1 3799 -- magick mushroom
 
 
 #descr "After the Cataclysm the Myconids found a strange shard. It's a potent source of magic kept hidden in the deepest cave. Only the wisest mage was allowed in, to gather the magic the shard secreted. To keep it secret he worked of the Mycelial network spanning Myconos. Years went by, until the mage past away. Troubles started when his body was absorbed by the Mycelial grid at the burial ceremony. The parasites from the shard that had incubated in his body for so long were released. Within weeks the Myconids started to behave strangely and dying in droves. Large groups of fungi disconnected themselves from the network. Faced with the collapse of the Kingdom the counsil of Myconid mages sent for help to the neighboring Pythians. Long time allies, the Pythians sent a regiment of legionaires and 2 bright researchers. Voland an eager young upstart, and Duke a respected arch theurg well know for it's bestsellers: 'Why beef is better than fish. Vol I & II'"
@@ -44,8 +51,8 @@ Magic: Air, Nature, Earth, Water.
 Priest: Strong"
 #startsite "Comet Shard"
 #flag "./Myconos/Flag.tga"
-#defcom1 3798
-#defcom2 3799
+#defcom1 3798 -- myconid commander
+#defcom2 3799 -- magick mushroom
 #defunit1 3769
 #defunit2 3577
 #defmult1 10
@@ -59,11 +66,12 @@ Priest: Strong"
 #hero3 3588
 #multihero1 3829
 #multihero2 3830
-#uwcom 3831
-#uwcom 3799
-#uwcom 3798
+
+#uwcom 3798 -- myconid commander
+#uwcom 3799 -- magick mushroom
+#uwcom 3831 -- Anemone Myconid
+
 #sacrificedom
-#addrecunit 3579
 #forestfort 33
 #mountainfort 15
 #farmfort 31
@@ -71,7 +79,6 @@ Priest: Strong"
 #swampfort 11
 #defaultfort 40
 #defmult2 8
-#addreccom 3580
 #end
 
 #newweapon 613
@@ -697,6 +704,7 @@ Priest: Strong"
 #name "Myconid Commander"
 #spr1 "./Myconos/MyconidLarge_11.tga"
 #spr2 "./Myconos/MyconidLarge_12.tga"
+#rpcost 2
 #pooramphibian
 #holy
 #magicskill 8 2
@@ -734,6 +742,7 @@ Priest: Strong"
 #name "Granite Myconid Warrior"
 #spr1 "./Myconos/MyconidWarrior_11.tga"
 #spr2 "./Myconos/MyconidWarrior_12.tga"
+#rpcost 18
 #holy
 #itemslots 15366
 #mapmove 1
@@ -767,6 +776,7 @@ Priest: Strong"
 #spr1 "./Myconos/MushroomMage_11.tga"
 #spr2 "./Myconos/MushroomMage_12.tga"
 #pooramphibian
+#rpcost 2
 #mapmove 0
 #prot 10
 #enc 2
@@ -929,6 +939,7 @@ Priest: Strong"
 #name "Spore Scout"
 #spr1 "./Myconos/SporeSmall_11.tga"
 #spr2 "./Myconos/SporeSmall_11.tga"
+#rpcost 1
 #mapmove 3
 #ap 12
 #hp 7
@@ -1144,6 +1155,7 @@ Priest: Strong"
 #name "Elder Council Mage"
 #spr1 "./Myconos/ElderMage_11.tga"
 #spr2 "./Myconos/ElderMage_13.tga"
+#rpcost 4
 #size 5
 #mapmove 1
 #prot 8
@@ -1183,13 +1195,14 @@ Priest: Strong"
 #level 0
 #path 6
 #rarity 5
-#homecom 3578
+#homecom 3578 -- elder council guard
 #end
 
 #newmonster 3579
 #name "City Guard"
 #spr1 "./Myconos/MyconidGiant_11.tga"
 #spr2 "./Myconos/MyconidGiant_12.tga"
+#rpcost 35
 #mapmove 2
 #prot 10
 #enc 5
@@ -1228,6 +1241,7 @@ Priest: Strong"
 #name "City Guard Commander"
 #spr1 "./Myconos/MyconidGiant_11.tga"
 #spr2 "./Myconos/MyconidGiant_12.tga"
+#rpcost 2
 #mr 16
 #descr "Some City Guards show aptitude for magic and are promoted to commanders. Their commanding skills are not what sets them apart but the ability to connect to the Mycelial grid. Their true power comes from their communion mastery. - Duke"
 #gcost 200
@@ -1605,7 +1619,7 @@ Priest: Strong"
 
 #newspell
 #copyspell 79
-#name "AnemoneRain"
+#name "Anemone Rain"
 #nextspell 577
 #end
 
@@ -1619,13 +1633,14 @@ Priest: Strong"
 #effect 10
 #nreff 1
 #spec 8404992
-#nextspell "AnemoneRain"
+#nextspell "Anemone Rain"
 #end
 
 #newmonster 3831
 #name "Anemone Myconid"
 #spr1 "./Myconos/Anemone_11.tga"
 #spr2 "./Myconos/Anemone_12.tga"
+#rpcost 4
 #magicskill 8 2
 #magicskill 2 4
 #mapmove 2
@@ -3231,6 +3246,7 @@ Priest: Strong"
 #name "Mortar Pod"
 #spr1 "./Myconos/MortarPod_11.tga"
 #spr2 "./Myconos/MortarPod_12.tga"
+#rpcost 15
 #weapon 620
 #weapon 620
 #weapon 620
