@@ -42,6 +42,15 @@
 #name "Infected Markata"
 #newmonster 3855 #secondshape 3800
 
+
+
+#name "Sea Dog"
+#newmonster 3900 #firstshape 3901 -- rec unit
+#newmonster 3901 #firstshape 3902
+#newmonster 3902 #firstshape 3903
+#newmonster 3903 #secondshape 3765
+
+
 #name "Parasite"
 #newmonster 3765 #firstshape 3774
 #newmonster 3800 #firstshape 3774

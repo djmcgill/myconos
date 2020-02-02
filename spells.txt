@@ -1,0 +1,183 @@
+#newspell -- Thorough Kill Caster -- Currently not effective, ideas welcome!
+#copyspell 91
+#school -1
+#name "Thorough Kill Caster"
+#end
+
+#newspell
+#copyspell "Gift of Reason"
+#name "Possession"
+#descr "The caster overwhelms the mind of another being and takes control. The spell targets a friendly unit in the same province that is neither undead nor a commander. The caster takes full control of their new body, though the old one dies along with any magic power the caster possessed."
+#spec 8912896
+#fatiguecost 200
+#nextspell "Thorough Kill Caster"
+#path 0 6
+#pathlevel 0 1
+#researchlevel 0
+#restricted 93
+#school 5
+#end
+
+#newspell
+#name "Summon Mold Demon"
+#school 6
+#path 0 7
+#pathlevel 0 6
+#effect 10021
+#researchlevel 8
+#fatiguecost 12000
+#damage 3581
+#effect 10021
+#restricted 93
+#descr "An unholy rite. Blood from 120 virgins is used to appease a mold demon. The blood is quickly consumed. Then the caster is able to entice the demon with the promise of more."
+#end
+
+#newspell
+#name "StarfishCommander"
+#effect 10037
+#damage 3583
+#fatiguecost 0
+#school -1
+#path 0 7
+#pathlevel 0 2
+#researchlevel 0
+#restricted 93
+#nreff 1
+#end
+
+#newspell
+#name "Blood Stained Lands"
+#damage 3584
+#descr "Through the Mycelial cords, blood flows to a distant place. Strange Fungi thrive on this blood soaked soil."
+#school 6
+#path 0 7
+#pathlevel 0 4
+#effect 10037
+#nreff 1005
+#fatiguecost 4000
+#researchlevel 5
+#nextspell "StarfishCommander"
+#restricted 93
+#end
+
+#newspell
+#name "HawkCommander"
+#effect 10037
+#damage 3585
+#fatiguecost 0
+#school -1
+#path 0 1
+#pathlevel 0 2
+#researchlevel 0
+#restricted 93
+#nreff 1
+#end
+
+#newspell
+#name "Infectious Winds"
+#damage 3769
+#descr "Calls forth a flock of infected birds."
+#school 0
+#path 0 1
+#pathlevel 0 2
+#effect 10037
+#nreff 1018
+#fatiguecost 500
+#researchlevel 3
+#nextspell "HawkCommander"
+#restricted 93
+#end
+
+#newspell
+#name "BerserkSelf"
+#aoe 0
+#fatiguecost 20
+#effect 10
+#damage 256
+#researchlevel 2
+#end
+
+#selectspell 817
+#school 1
+#path 0 5
+#researchlevel 6
+#pathlevel 0 4
+#fatiguecost 400
+#damage 77
+#effect 81
+#nextspell "BerserkSelf"
+#end
+
+#newspell
+#copyspell 79
+#name "AnemoneRain"
+#nextspell 577
+#end
+
+#selectspell 818
+#school 1
+#path 0 5
+#researchlevel 6
+#pathlevel 0 4
+#fatiguecost 400
+#damage 536870912
+#effect 10
+#nreff 1
+#spec 8404992
+#nextspell "AnemoneRain"
+#end
+
+#newspell
+#name "Summon Blood Fungus"
+#school 6
+#path 0 7
+#pathlevel 0 2
+#effect 10021
+#researchlevel 0
+#fatiguecost 6000
+#damage 3582
+#effect 10021
+#restricted 93
+#descr "Summons a Blood Fungus"
+#end
+
+
+#selectspell 814
+#school -1
+#researchlevel 0
+#damage 3807 -- scout
+#nreff 3
+#range 1
+#effect 1
+#end
+
+#selectspell 815
+#school -1
+#researchlevel 0
+#damage 3807 -- scout
+#nreff 3
+#range 1
+#effect 1
+#nextspell 636 -- slave
+#end
+
+#selectspell 819
+#school -1
+#researchlevel 0
+#damage 3833 -- baby one
+#nreff 5
+#range 1
+#effect 1
+#nextspell 636 -- slave
+#spec 8388608
+#end
+
+
+#selectspell 816
+#aoe 666
+#spec 4194304
+#school -1
+#researchlevel -1
+#explspr 10056
+#effect 20 -- blink?
+#end

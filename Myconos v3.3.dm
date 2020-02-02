@@ -4,13 +4,13 @@
 #version 3.3
 
 
-Uses the following IDS
+-- Uses the following IDS
 -- FIXME
-Nation: 93
-Monsters: 3570-3588, 3761-3809, 3829-3833, 3835-3893
-Weapons: 613-619
-Armor:
-Sites: 895-896
+-- Nation: 93
+-- Monsters: 3570-3588, 3761-3809, 3829-3833, 3835-3893
+-- Weapons: 613-619
+-- Armor:
+-- Sites: 895-896
 
 #selectnation 120
 #name "Myconos"
@@ -19,14 +19,15 @@ Sites: 895-896
 #homerealm 9
 #homerealm 10
 #addgod 3883
-#startscout 3808
+#startscout 3807 -- spore scout
 #startcom 3761
 #startunittype1 3762
 #startunitnbrs1 10
 
 #addrecunit 3766
-#addrecunit 3770
+#addrecunit 3770 -- boar
 #addrecunit 3894
+#uwrec 3900 -- sea dog
 
 #addreccom 3807 -- spore scout
 
@@ -64,6 +65,7 @@ Priest: Strong"
 #hero1 3586
 #hero2 3587
 #hero3 3588
+#hero4 3808 -- voland & duke
 #multihero1 3829
 #multihero2 3830
 
@@ -213,7 +215,7 @@ Priest: Strong"
 #spr2 "./Myconos/Velite_Sick_32.tga"
 #secondshape 3765
 #berserk 1
-#descr "I think I've created the perfect soldier. Hundred percent loyal to their masters and at the slightest provocation they fall into a blinding rage even when it means certain death. I removed the parasite from one of the soldier's brain today. He immidatly attacked me while shouting: 'What did you do to me!' I had to put him down. - Voland"
+#descr "I think I've created the perfect soldier. Hundred percent loyal to their masters and at the slightest provocation they fall into a blinding rage even when it means certain death. I removed the parasite from one of the soldier's brain today. He immediately attacked me while shouting: 'What did you do to me!' I had to put him down. - Voland"
 #end
 
 #newmonster 3766
@@ -297,7 +299,7 @@ Priest: Strong"
 #spr2 "./Myconos/Boar_32.tga"
 #amphibian
 #berserk 2
-#descr "These mucus strands are actually an alive part of the boar. In fact they seem to be acting as outher gills and the boars have gained the ability to breath underwater.  Their meat even tastes like fish. Not good at all .... - Duke"
+#descr "These mucus strands are actually an alive part of the boar. In fact they seem to be acting as outher gills and the boars have gained the ability to breath underwater. Their meat even tastes like fish. Not good at all .... - Duke"
 #gcost 5
 #end
 
@@ -459,6 +461,7 @@ Priest: Strong"
 #darkvision 50
 #startage 1
 #maxage 50
+#uwdamage 50
 #descr "The swamp moster is a large, highly poisonous brute. First reports have noted that the creature needs air but is capable of being submerged for more than a day. We tried to bait one but they don't seem to like Pythian Pie.- Duke"
 #swampsurvival
 #end
@@ -559,7 +562,6 @@ Priest: Strong"
 #darkvision 50
 #noitem
 #descr "Not much is known about these creatures. They have been reported along the coast and in river inlands. One Myconid survivor claims he saw it slay a bear. The bear dissolved instandly in a puddle of goo and its remain were being gobbled up by the serpent. The last thing he recalled was being defrosted by a nurse with whom he would gladly exchange spores with.    - Duke"
-#commaster
 #swampsurvival
 #end
 
@@ -790,19 +792,19 @@ Priest: Strong"
 #att 0
 #prec 12
 #mor 30
-#magicskill 1 2
-#magicskill 2 2
-#magicskill 6 2
-#custommagic 9984 100
-#custommagic 9984 100
+#magicskill 1 2 -- a2
+#magicskill 2 2 -- w2
+#magicskill 6 2 -- n2
+#custommagic 9984 100 -- N/E/W/A
+#custommagic 9984 100 -- N/E/W/A
 #rcost 1
 #descr "These are young mushrooms and have not yet differentiate themselves. Although born under a sign of other magics they will only aquire these levels at a later age. - Duke"
 #blind
 #startage 1
 #maxage 50
-#magicboost 1 -2
-#magicboost 2 -2
-#magicboost 6 -2
+#magicboost 1 -2 -- a-2
+#magicboost 2 -2 -- w-2
+#magicboost 6 -2 -- n-2
 #noitem
 #noleader
 #weapon 300
@@ -827,7 +829,7 @@ Priest: Strong"
 #firstshape 3804
 #spr1 "./Myconos/MushroomMage_11.tga"
 #spr2 "./Myconos/MushroomMage_12.tga"
-#magicboost 4 1
+#magicboost 4 1 -- a+1??? FIXME
 #noitem
 #descr "These are young mushrooms and have not yet differentiate themselves. Although born under a sign of other magics they will only aquire these levels at a later age. - Duke"
 #end
@@ -838,7 +840,7 @@ Priest: Strong"
 #spr1 "./Myconos/MushroomMage_11.tga"
 #spr2 "./Myconos/MushroomMage_12.tga"
 #firstshape 3806
-#magicboost 4 1
+#magicboost 4 1 -- a+1??? FIXME
 #noitem
 #descr "These are young mushrooms and have not yet differentiate themselves. Although born under a sign of other magics they will only aquire these levels at a later age. - Duke"
 #end
@@ -1000,6 +1002,7 @@ Priest: Strong"
 #name "Voland & Duke"
 #spr1 "./Myconos/VolandDuke_11.tga"
 #spr2 "./Myconos/VolandDuke_12.tga"
+#fixedname "Voland & Duke"
 #summon5 3761
 #firstshape 3809
 #magicskill 1 2
@@ -1136,10 +1139,6 @@ Priest: Strong"
 #noitem
 #descr "A mythical creature? A fairy tale and bedtime story for Pythian children? Eat your peas or you'll transform into a mushroom like Voland & Duke, mothers tell their children. I don't know .... In every story there is an element of truth. - Celestus, Arch Theurg"
 #end
-
---selectnametype 127
---addname "Voland & Duke"
---end
 
 #newsite 895
 #name "Comet Shard"
@@ -2164,8 +2163,8 @@ Priest: Strong"
 #att 0
 #prec 12
 #mor 30
-#magicboost 1 -2
-#magicboost 2 -2
+#magicboost 1 -2 -- a -2
+#magicboost 2 -2 -- w -2
 #forestsurvival
 #startage 1
 #maxage 50
@@ -3272,5 +3271,44 @@ Priest: Strong"
 #poisonarmor
 #noitem
 #noleader
-#descr "Mortar Pods are an intergral part of Myconos defence system. While the tough Granite Warriors hold the line they rain deadly poison on the hapless enemies. These Fungi have no consciousness and are therefore not infected by parasites. "
+#descr "Mortar Pods are an intergral part of Myconos defence system. While the tough Granite Warriors hold the line they rain deadly poison on the hapless enemies. These Fungi have no consciousness and are therefore not infected by parasites."
+#end
+
+#newmonster 3900
+#copystats 1064 -- vanilla sea dogs
+#name "Sea Dog"
+#spr1 "./Myconos/SeaDog_11.tga"
+#spr2 "./Myconos/SeaDog_12.tga"
+#gcost 12
+#rpcost 10
+#descr "I asked the locals about these creatures and the only answer I got was 'life underneath the waves corresponds in many ways to that on dry land'. That's not an explanation! - Duke"
+#firstshape 3901 -- incubating
+#end
+
+#newmonster 3901
+#copystats 1064 -- vanilla sea dogs
+#name "Sea Dog"
+#spr1 "./Myconos/SeaDog_11.tga"
+#spr2 "./Myconos/SeaDog_12.tga"
+#descr "I asked the locals about these creatures and the only answer I got was 'life underneath the waves corresponds in many ways to that on dry land'. That's not an explanation! - Duke"
+#firstshape 3902 -- partial infection
+#end
+
+#newmonster 3902
+#copystats 1064 -- vanilla sea dogs
+#name "Sea Dog"
+#spr1 "./Myconos/SeaDog_21.tga"
+#spr2 "./Myconos/SeaDog_22.tga"
+#descr "These creatures can still be infected the normal way though. Mucus is oozing through their scales and they've become a lot less playful - Duke"
+#firstshape 3903 -- fully infected
+#end
+
+#newmonster 3903
+#copystats 1064 -- vanilla sea dogs
+#name "Infected Sea Dog"
+#spr1 "./Myconos/SeaDog_31.tga"
+#spr2 "./Myconos/SeaDog_32.tga"
+#descr "Since they've become fully infected they won't even play fetch any more. They just stare blankly and go where the Mycelial network points them. I don't feel good about this one. - Duke"
+#secondshape 3765 -- parasite
+#berserk 1
 #end
