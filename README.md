@@ -1,6 +1,6 @@
 # MA Myconos
 
-Mod nation for dominions 5, originally created for 3 by GFSn.
+Mod nation for dominions 5, originally created for 3 by GFSn: http://dominionsmods.com/index.php?showtopic=479
 
 ## TODO
 - Some communion slaves should batstartsum 3 spores
@@ -12,6 +12,7 @@ Mod nation for dominions 5, originally created for 3 by GFSn.
 - the uw troops on land isn't getting hit by drying out
 - illegal shape: 3806 3882 3804
 - pretender spider shape doesn't shape properly
+    - fix up other shapes - shouldn't be undisciplined for example
 - test blood stuff
 - test summons
 - uw recruitable troop?
@@ -19,6 +20,5 @@ Mod nation for dominions 5, originally created for 3 by GFSn.
 - voland and duke can move in mushroom form
 - pretender cost
 - recruit militia?
-#startingaff 1
 - disease all firstshapes?, to reduce annoying micro. Probably not in the second form though. startingaff doesn't seem to work via shapes
 - make myconid queen's shapes all amphibious
